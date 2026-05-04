@@ -21,7 +21,7 @@ SENDER_PASSWORD  = os.environ["SENDER_PASSWORD"]
 ANTHROPIC_KEY    = os.environ["ANTHROPIC_API_KEY"]
 
 MEMORY_FILE      = "memory.json"
-MEMORY_DAYS      = 30   # how many days of history to keep
+MEMORY_DAYS      = 180   # how many days of history to keep
 
 # Sectors to track — ETFs as proxies for sector health
 SECTOR_ETFS = {
@@ -220,6 +220,8 @@ def analyze_with_claude(market_data: dict, memory: dict) -> str:
     prompt = f"""
 You are a sharp financial analyst specializing in identifying EARLY-STAGE sector trends on US markets —
 the kind of trends that were visible in semiconductors in 2019-2020 BEFORE the mainstream caught on.
+You analyze WEEKLY timeframes and multi-month structural trends — macro rotations, sector accumulation phases,
+early institutional positioning. Ignore daily noise. A signal is only relevant if it holds across multiple weeks.
 
 Today is {market_data['date']}.
 
