@@ -14,7 +14,7 @@ import yfinance as yf
 import pandas as pd
 
 # ── CONFIG ──────────────────────────────────────────────────────────────────
-RECIPIENT_EMAIL = os.environ["RECIPIENT_EMAIL"]   # your email
+RECIPIENT_EMAILS = [e.strip() for e in os.environ["RECIPIENT_EMAIL"].split(",")]  # comma-separated list
 SENDER_EMAIL    = os.environ["SENDER_EMAIL"]       # Gmail address
 SENDER_PASSWORD = os.environ["SENDER_PASSWORD"]    # Gmail App Password
 ANTHROPIC_KEY   = os.environ["ANTHROPIC_API_KEY"]
@@ -154,7 +154,7 @@ def send_email(analysis: str, date: str):
     msg = MIMEMultipart("alternative")
     msg["Subject"] = f"📈 Morning Market Brief — {date}"
     msg["From"]    = SENDER_EMAIL
-    msg["To"]      = RECIPIENT_EMAIL
+    msg["To"]      = ", ".join(RECIPIENT_EMAILS)
 
     # Plain text version
     text_part = MIMEText(analysis, "plain")
@@ -182,7 +182,7 @@ def send_email(analysis: str, date: str):
 
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
         server.login(SENDER_EMAIL, SENDER_PASSWORD)
-        server.sendmail(SENDER_EMAIL, RECIPIENT_EMAIL, msg.as_string())
+        server.sendmail(SENDER_EMAIL, RECIPIENT_EMAILS, msg.as_string())
 
     print("✅ Email sent!")
 
