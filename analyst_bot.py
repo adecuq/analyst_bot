@@ -71,7 +71,7 @@ def fetch_ticker_data(ticker: str, days: int = 30) -> dict:
             "change_1m_%":   round((current - prev_month) / prev_month * 100, 2),
             "volume_ratio":  round(last_vol / avg_vol, 2),   # >1.5 = unusual activity
             "52w_high":      round(hist["Close"].max(), 2),
-            "near_52w_high": current >= hist["Close"].max() * 0.95,
+            "near_52w_high": bool(current >= hist["Close"].max() * 0.95),
         }
     except Exception as e:
         return {"ticker": ticker, "error": str(e)}
@@ -137,7 +137,7 @@ Format using emojis and clear sections. No disclaimers needed.
 """
 
     message = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-sonnet-4-6",
         max_tokens=1500,
         messages=[{"role": "user", "content": prompt}]
     )
