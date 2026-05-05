@@ -13,3 +13,22 @@ pip install -r requirements.txt
 
 python3 analyst_bot.py
 ```
+
+# Cost estimation
+TokensPrompt (données + mémoire)~3000Réponse (max_tokens)~2200Total~5200 tokens
+Prix claude-sonnet-4-6 :
+
+Input : $3 / 1M tokens
+Output : $15 / 1M tokens
+
+Par run :
+
+Input : 3000 × $3/1M = $0.009
+Output : 2200 × $15/1M = $0.033
+Total : ~$0.04 par run
+
+Par mois (1x/semaine) :
+
+4 runs × $0.04 = ~$0.16/mois
+
+Soit moins de $2/an. Le passage de 1800 à 2200 max_tokens ajoute littéralement $0.006 par run — totalement négligeable.
