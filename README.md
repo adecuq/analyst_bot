@@ -9,6 +9,8 @@ To build and deploy a financial trend-detection bot
 
 # Test it locally
 ```
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 
 python3 analyst_bot.py
