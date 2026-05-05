@@ -1,0 +1,281 @@
+{
+  "2026-05-05": {
+    "signals": {
+      "sectors": {
+        "Semiconductors": {
+          "change_1w_%": 5.32,
+          "change_1m_%": 37.28,
+          "volume_ratio": 0.75,
+          "near_52w_high": true
+        },
+        "AI / Cloud": {
+          "change_1w_%": 4.79,
+          "change_1m_%": 17.7,
+          "volume_ratio": 0.92,
+          "near_52w_high": true
+        },
+        "Clean Energy": {
+          "change_1w_%": 4.64,
+          "change_1m_%": 14.19,
+          "volume_ratio": 1.23,
+          "near_52w_high": true
+        },
+        "Biotech": {
+          "change_1w_%": 1.78,
+          "change_1m_%": 9.7,
+          "volume_ratio": 0.89,
+          "near_52w_high": true
+        },
+        "Cybersecurity": {
+          "change_1w_%": 3.61,
+          "change_1m_%": 5.1,
+          "volume_ratio": 0.91,
+          "near_52w_high": true
+        },
+        "Space & Defense": {
+          "change_1w_%": -0.87,
+          "change_1m_%": -4.04,
+          "volume_ratio": 1.11,
+          "near_52w_high": false
+        },
+        "Quantum Computing": {
+          "change_1w_%": 5.2,
+          "change_1m_%": 22.88,
+          "volume_ratio": 1.35,
+          "near_52w_high": true
+        },
+        "Robotics & Automation": {
+          "change_1w_%": 2.18,
+          "change_1m_%": 15.42,
+          "volume_ratio": 0.78,
+          "near_52w_high": true
+        },
+        "Fintech": {
+          "change_1w_%": 2.24,
+          "change_1m_%": 6.2,
+          "volume_ratio": 1.96,
+          "near_52w_high": true
+        },
+        "Rare Earth & Materials": {
+          "change_1w_%": 4.3,
+          "change_1m_%": 22.11,
+          "volume_ratio": 2.06,
+          "near_52w_high": true
+        }
+      },
+      "notable_tickers": {
+        "CIEN": {
+          "change_1w_%": 13.68,
+          "change_1m_%": 32.02,
+          "volume_ratio": 0.46,
+          "near_52w_high": true
+        },
+        "GNRC": {
+          "change_1w_%": 18.4,
+          "change_1m_%": 27.36,
+          "volume_ratio": 0.77,
+          "near_52w_high": true
+        },
+        "KEYS": {
+          "change_1w_%": 5.73,
+          "change_1m_%": 21.59,
+          "volume_ratio": 0.77,
+          "near_52w_high": true
+        },
+        "AMD": {
+          "change_1w_%": 5.67,
+          "change_1m_%": 68.51,
+          "volume_ratio": 1.06,
+          "near_52w_high": false
+        },
+        "INTC": {
+          "change_1w_%": 13.32,
+          "change_1m_%": 117.63,
+          "volume_ratio": 0.96,
+          "near_52w_high": true
+        },
+        "MKSI": {
+          "change_1w_%": 8.82,
+          "change_1m_%": 24.04,
+          "volume_ratio": 1.83,
+          "near_52w_high": true
+        },
+        "QCOM": {
+          "change_1w_%": 12.25,
+          "change_1m_%": 31.19,
+          "volume_ratio": 1.51,
+          "near_52w_high": false
+        },
+        "AVAV": {
+          "change_1w_%": -6.28,
+          "change_1m_%": -12.61,
+          "volume_ratio": 1.16,
+          "near_52w_high": false
+        },
+        "NOK": {
+          "change_1w_%": 16.28,
+          "change_1m_%": 63.03,
+          "volume_ratio": 1.31,
+          "near_52w_high": true
+        },
+        "RGTI": {
+          "change_1w_%": 7.99,
+          "change_1m_%": 11.46,
+          "volume_ratio": 0.97,
+          "near_52w_high": false
+        },
+        "LDOS": {
+          "change_1w_%": 1.82,
+          "change_1m_%": -8.45,
+          "volume_ratio": 2.33,
+          "near_52w_high": false
+        },
+        "GOOGL": {
+          "change_1w_%": 9.57,
+          "change_1m_%": 26.88,
+          "volume_ratio": 0.91,
+          "near_52w_high": true
+        },
+        "GD": {
+          "change_1w_%": 11.29,
+          "change_1m_%": 0.96,
+          "volume_ratio": 1.1,
+          "near_52w_high": true
+        },
+        "NVDA": {
+          "change_1w_%": -6.89,
+          "change_1m_%": 13.0,
+          "volume_ratio": 0.8,
+          "near_52w_high": false
+        },
+        "CEG": {
+          "change_1w_%": 5.02,
+          "change_1m_%": 10.8,
+          "volume_ratio": 0.98,
+          "near_52w_high": true
+        },
+        "VRT": {
+          "change_1w_%": 8.5,
+          "change_1m_%": 29.29,
+          "volume_ratio": 0.86,
+          "near_52w_high": true
+        },
+        "MRVL": {
+          "change_1w_%": 6.81,
+          "change_1m_%": 81.61,
+          "volume_ratio": 0.53,
+          "near_52w_high": true
+        },
+        "CSCO": {
+          "change_1w_%": 6.64,
+          "change_1m_%": 18.16,
+          "volume_ratio": 0.68,
+          "near_52w_high": true
+        },
+        "ORCL": {
+          "change_1w_%": 8.63,
+          "change_1m_%": 17.22,
+          "volume_ratio": 1.17,
+          "near_52w_high": true
+        },
+        "LITE": {
+          "change_1w_%": 23.35,
+          "change_1m_%": 33.92,
+          "volume_ratio": 0.93,
+          "near_52w_high": true
+        },
+        "UMC": {
+          "change_1w_%": 11.32,
+          "change_1m_%": 42.79,
+          "volume_ratio": 0.84,
+          "near_52w_high": true
+        },
+        "COHR": {
+          "change_1w_%": 8.53,
+          "change_1m_%": 29.34,
+          "volume_ratio": 1.09,
+          "near_52w_high": false
+        },
+        "IONQ": {
+          "change_1w_%": 6.2,
+          "change_1m_%": 38.18,
+          "volume_ratio": 0.91,
+          "near_52w_high": false
+        },
+        "QBTS": {
+          "change_1w_%": 15.52,
+          "change_1m_%": 28.26,
+          "volume_ratio": 0.87,
+          "near_52w_high": true
+        },
+        "AAOI": {
+          "change_1w_%": 26.02,
+          "change_1m_%": 80.64,
+          "volume_ratio": 0.85,
+          "near_52w_high": false
+        },
+        "SOUN": {
+          "change_1w_%": 17.49,
+          "change_1m_%": 37.45,
+          "volume_ratio": 1.94,
+          "near_52w_high": true
+        },
+        "GFS": {
+          "change_1w_%": 13.88,
+          "change_1m_%": 54.12,
+          "volume_ratio": 1.63,
+          "near_52w_high": true
+        },
+        "META": {
+          "change_1w_%": -9.08,
+          "change_1m_%": 1.05,
+          "volume_ratio": 0.91,
+          "near_52w_high": false
+        },
+        "FN": {
+          "change_1w_%": 12.55,
+          "change_1m_%": 31.35,
+          "volume_ratio": 1.54,
+          "near_52w_high": true
+        },
+        "TSEM": {
+          "change_1w_%": 11.11,
+          "change_1m_%": 24.94,
+          "volume_ratio": 0.53,
+          "near_52w_high": false
+        },
+        "TER": {
+          "change_1w_%": -11.23,
+          "change_1m_%": 11.03,
+          "volume_ratio": 0.9,
+          "near_52w_high": false
+        },
+        "QUBT": {
+          "change_1w_%": 10.85,
+          "change_1m_%": 29.43,
+          "volume_ratio": 1.01,
+          "near_52w_high": true
+        },
+        "SPIR": {
+          "change_1w_%": 9.4,
+          "change_1m_%": 36.12,
+          "volume_ratio": 0.44,
+          "near_52w_high": false
+        },
+        "BE": {
+          "change_1w_%": 27.51,
+          "change_1m_%": 104.23,
+          "volume_ratio": 0.92,
+          "near_52w_high": true
+        },
+        "AXTI": {
+          "change_1w_%": 54.27,
+          "change_1m_%": 64.49,
+          "volume_ratio": 0.84,
+          "near_52w_high": true
+        }
+      }
+    },
+    "brief_summary": "# \ud83e\udde0 SECTOR TREND REPORT \u2014 Week of May 5, 2026\n\n---\n\n## 1. \ud83c\udf0d MACRO PULSE\n\n- **Gold/Silver**: Both in multi-month downtrend (Gold -11%, Silver -15% 1m) despite small weekly bounces \u2014 safe haven demand fading, risk-on rotation in progress.\n- **Oil (WTI)**: $103, RSI 69, up +57% in a month \u2014 energy inflation re-accelerating, pressures margins but fuels energy infrastructure spend.\n- **EUR/USD**: Sideways at 1.17, mild USD strength \u2014 modest headwind for multinationals, not a market killer.\n- **VIX**: 17.64, falling (-6% WoW), RSI neutral \u2014 fear dissipating, market moving back toward complacency zon"
+  }
+}
