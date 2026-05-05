@@ -6,15 +6,13 @@ Includes persistent memory + dynamic ticker discovery.
 
 import os
 import json
-import smtplib
 import requests
 import time
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 import anthropic
 import yfinance as yf
+from bot_utils import markdown_to_html, send_email as _send_email
 
 # ── CONFIG ───────────────────────────────────────────────────────────────────
 RECIPIENT_EMAILS = [e.strip() for e in os.environ["RECIPIENT_EMAIL"].split(",")]
@@ -608,30 +606,19 @@ CRITICAL: Never cut a section mid-sentence. If running long, shorten each sectio
 
 def send_email(analysis: str, run_date: str):
     print("📧 Sending email...")
-    msg            = MIMEMultipart("alternative")
-    msg["Subject"] = f"📈 Weekly Stock Brief — {run_date}"
-    msg["From"]    = SENDER_EMAIL
-    msg["To"]      = ", ".join(RECIPIENT_EMAILS)
-    text_part      = MIMEText(analysis, "plain")
-    html_body      = analysis.replace("\n", "<br>")
-    html = f"""
-    <html><body style="font-family:'Georgia',serif;max-width:680px;margin:auto;
-                       background:#faf8f4;color:#2c2c2c;padding:32px;">
-      <div style="border-left:4px solid #1a6b3c;padding-left:20px;margin-bottom:24px;">
-        <h1 style="color:#1a6b3c;font-size:22px;margin:0;">📈 Weekly Stock Brief</h1>
-        <p style="color:#888;margin:4px 0 0;">{run_date}</p>
-      </div>
-      <div style="line-height:1.8;font-size:15px;">{html_body}</div>
-      <hr style="border-color:#ddd;margin-top:40px;">
-      <p style="color:#999;font-size:12px;">Financial Trend Bot · Not financial advice</p>
-    </body></html>"""
-    html_part = MIMEText(html, "html")
-    msg.attach(text_part)
-    msg.attach(html_part)
-    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
-        server.login(SENDER_EMAIL, SENDER_PASSWORD)
-        server.sendmail(SENDER_EMAIL, RECIPIENT_EMAILS, msg.as_string())
-    print("✅ Email sent!")
+    _send_email(
+        analysis        = analysis,
+        run_date        = run_date,
+        sender_email    = SENDER_EMAIL,
+        sender_password = SENDER_PASSWORD,
+        recipients      = RECIPIENT_EMAILS,
+        subject         = f"📈 Weekly Stock Brief — {run_date}",
+        header_title    = "📈 Weekly Stock Brief",
+        header_color    = "#1a6b3c",
+        bg_color        = "#faf8f4",
+        accent          = "#145c30",
+        footer          = "Financial Trend Bot · Not financial advice",
+    )
 
 
 # ── MAIN ──────────────────────────────────────────────────────────────────────

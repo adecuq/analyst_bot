@@ -1,0 +1,42 @@
+name: 🪙 Daily Crypto Brief
+
+on:
+  schedule:
+    # Every Monday at 7:30 AM Paris time (= 5:30 AM UTC)
+    - cron: "30 5 * * 1"
+  workflow_dispatch:
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run crypto bot
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RECIPIENT_EMAIL:   ${{ secrets.RECIPIENT_EMAIL }}
+          SENDER_EMAIL:      ${{ secrets.SENDER_EMAIL }}
+          SENDER_PASSWORD:   ${{ secrets.SENDER_PASSWORD }}
+          FRED_API_KEY:      ${{ secrets.FRED_API_KEY }}
+        run: python analyst_crypto.py
+
+      - name: Commit memory
+        run: |
+          git config user.name  "analyst-bot"
+          git config user.email "bot@analyst-bot.com"
+          git add memory_crypto.json
+          git diff --staged --quiet || git commit -m "🪙 crypto memory $(date +%Y-%m-%d)"
+          git push
