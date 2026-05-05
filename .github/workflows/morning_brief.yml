@@ -36,6 +36,6 @@ jobs:
         run: |
           git config user.name  "analyst-bot"
           git config user.email "bot@analyst-bot.com"
-          git add memory_stocks.json
+          git add memory_stocks.json discovered_tickers.json
           git diff --staged --quiet || git commit -m "📊 memory update $(date +%Y-%m-%d)"
           git push
