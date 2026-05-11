@@ -587,6 +587,11 @@ HISTORICAL MEMORY (past 6 months):
 YOUR TASK — use ALL data above. Memory and discovery history are your edge.
 A signal is stronger when it propagates across multiple chain layers.
 
+0. 🧠 EXECUTIVE SUMMARY (5 lines max — write this FIRST)
+   The most important thing happening in US stock markets this week. No fluff.
+   Format: 5 bullet points, each a complete standalone insight.
+   Cover: macro backdrop, top sector move, biggest risk, one chain signal, one actionable idea.
+
 1. 🌍 MACRO PULSE (5 lines max)
    - Gold/Silver/Oil: safe haven + inflation signal
    - EUR/USD trend: risk-on vs risk-off, USD strength impact on US equities
