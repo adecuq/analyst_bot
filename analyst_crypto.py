@@ -1453,6 +1453,7 @@ IMPORTANT: If a data value is missing or null — OMIT that bullet point entirel
    - RSI Weekly: only include if rsi_weekly is not null
    - MA Signal: only include if ma50_weekly or ma200_weekly is not null
    - If RSI/MA data is null, use price structure and daily RSI instead — note it
+   - Fear & Greed: current value + label | 1w ago: value + label | change: +/-X → SHIFTING / STABLE
 
    ## 🌊 Global Liquidity
    (use exactly "## 🌊 Global Liquidity" as the sub-header — two hash signs)
@@ -1500,6 +1501,7 @@ IMPORTANT: If a data value is missing or null — OMIT that bullet point entirel
    |--------|------|-----------|---------|-----|----------|
    - Flag ⚡ symbol when fees_1y is high but 7d price is negative = asymmetric opportunity
    - Max 15 rows, same order as data
+   - Symbol column: use ONLY the token symbol (e.g. SOL, AAVE, UNI) — NO protocol names in parentheses, NO italics
 
 5. 🎭 MEME WATCH
    Output as markdown pipe table:

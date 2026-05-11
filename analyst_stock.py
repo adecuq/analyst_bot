@@ -312,6 +312,38 @@ def fetch_macro_data() -> dict:
             result[name] = {"error": str(e)}
     return result
 
+
+def fetch_fear_greed() -> dict:
+    """Fetch Fear & Greed Index from alternative.me (free, no key)."""
+    try:
+        resp = requests.get("https://api.alternative.me/fng/?limit=30", timeout=10)
+        resp.raise_for_status()
+        data = resp.json().get("data", [])
+        if not data:
+            return {}
+        current   = data[0]
+        week_ago  = data[7]  if len(data) > 7  else None
+        month_ago = data[29] if len(data) > 29 else None
+
+        def classify(val):
+            v = int(val)
+            if v >= 75: return "Extreme Greed 🤑"
+            if v >= 55: return "Greed 😀"
+            if v >= 45: return "Neutral 😐"
+            if v >= 25: return "Fear 😨"
+            return "Extreme Fear 😱"
+
+        return {
+            "value":        int(current["value"]),
+            "label":        classify(current["value"]),
+            "value_1w_ago": int(week_ago["value"]) if week_ago else None,
+            "label_1w_ago": classify(week_ago["value"]) if week_ago else None,
+            "change_1w":    int(current["value"]) - int(week_ago["value"]) if week_ago else None,
+        }
+    except Exception as e:
+        print(f"  ⚠️ Fear & Greed error: {e}")
+        return {}
+
 def fetch_all_data() -> dict:
     print(f"📡 Fetching {len(WATCHLIST)} watchlist tickers across {len(THEMATIC_CHAINS)} chains...")
     sectors = {name: fetch_ticker_data(etf) for name, etf in SECTOR_ETFS.items()}
@@ -340,6 +372,8 @@ def fetch_all_data() -> dict:
 
     macro = fetch_macro_data()
 
+    fear_greed = fetch_fear_greed()
+
     return {
         "sectors":           sectors,
         "tickers":           tickers,
@@ -347,6 +381,7 @@ def fetch_all_data() -> dict:
         "discovered":        discovered_data,
         "discovery_context": discovery_context,
         "macro":             macro,
+        "fear_greed":        fear_greed,
         "date":              datetime.now().strftime("%Y-%m-%d"),
     }
 
@@ -536,6 +571,9 @@ THEMATIC VALUE CHAINS (full industry stack):
 🌍 MACRO INDICATORS (commodities, forex, rates):
 {json.dumps(market_data.get('macro', {}), indent=2)}
 
+FEAR & GREED INDEX:
+{json.dumps(market_data.get('fear_greed', {}), indent=2)}
+
 NEWLY DISCOVERED TICKERS (Finviz screener + Yahoo trending, not in watchlist):
 {json.dumps(market_data.get('discovered', {}), indent=2)}
 
@@ -553,6 +591,7 @@ A signal is stronger when it propagates across multiple chain layers.
    - Gold/Silver/Oil: safe haven + inflation signal
    - EUR/USD trend: risk-on vs risk-off, USD strength impact on US equities
    - VIX level + direction: <15 complacent, 15-25 normal, >25 fear, >30 panic
+   - Fear & Greed: current value + label | vs 1w ago → SHIFTING / STABLE
    - One sentence conclusion: macro SUPPORTIVE / NEUTRAL / HEADWIND for equities
 
 2. 🔥 TOP EMERGING TREND (1-2 themes)
