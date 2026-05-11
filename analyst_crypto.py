@@ -778,7 +778,7 @@ def fetch_global_market() -> dict:
         # Simplest reliable approach: dom_past = btc_mcap_past / btc_mcap_now * btc_dom_now
         btc_now = btc_mcaps[-1][1] if btc_mcaps else None
 
-        def dom_at_days(days_ago: int) -> float | None:
+        def dom_at_days(days_ago: int) -> object:
             try:
                 idx      = -(days_ago + 1)
                 btc_past = btc_mcaps[idx][1]
@@ -898,7 +898,7 @@ def fetch_btc_ohlc() -> list:
 
 # ── TECHNICAL ANALYSIS ────────────────────────────────────────────────────────
 
-def compute_rsi(closes: list, period: int = 14) -> float | None:
+def compute_rsi(closes: list, period: int = 14) -> object:
     """Compute RSI from a list of close prices."""
     if len(closes) < period + 1:
         return None
