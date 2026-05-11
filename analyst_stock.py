@@ -610,7 +610,7 @@ A signal is stronger when it propagates across multiple chain layers.
    - All ETF sectors: HEATING UP 🔺 / NEUTRAL ➡️ / COOLING DOWN 🔻
    - Tag: NEW / CONFIRMED (3+ weeks) / FADING
 
-4. 🔗 CHAIN ANALYSIS
+4. 🔗 AI CHAIN ANALYSIS
    - For each active chain: which sub-layers lead vs lag?
    - Lagging layer in active chain + RSI <50 + ABOVE_200 = highest conviction catch-up
    - Include fwd_pe context: low PE in hot chain = value entry
@@ -628,7 +628,13 @@ A signal is stronger when it propagates across multiple chain layers.
 7. 💡 EARLY RADAR
    - 1-2 chains too early to call — weeks on watch, what would confirm?
 
-7. ⚠️ RISKS THIS WEEK
+7. 📅 UPCOMING CATALYSTS & NEWS
+   Use your web_search tool to find the most important macro and market news right now.
+   Search broadly — find what matters this week without being told what to look for.
+   Format: [Date] Event — Impact (BULLISH/BEARISH/NEUTRAL)
+   Max 4 bullets. Current events only — no training data guesses.
+
+8. ⚠️ RISKS THIS WEEK
 
 Punchy. 3-minute weekly read. Emojis, clear sections. No disclaimers.
 CRITICAL: Never cut a section mid-sentence. If running long, shorten each section but always complete every section fully.
@@ -637,9 +643,15 @@ CRITICAL: Never cut a section mid-sentence. If running long, shorten each sectio
     message = client.messages.create(
         model="claude-sonnet-4-6",
         max_tokens=4096,
+        tools=[{"type": "web_search_20250305", "name": "web_search"}],
         messages=[{"role": "user", "content": prompt}]
     )
-    return message.content[0].text
+    # Extract text from all content blocks
+    text_parts = [
+        block.text for block in message.content
+        if hasattr(block, "text") and block.text
+    ]
+    return "\n".join(text_parts)
 
 
 # ── EMAIL ─────────────────────────────────────────────────────────────────────

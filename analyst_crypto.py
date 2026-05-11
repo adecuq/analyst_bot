@@ -1442,7 +1442,23 @@ IMPORTANT: If a data value is missing or null — OMIT that bullet point entirel
    Cover: BTC structure, top sector move, biggest risk, liquidity signal, one actionable idea.
    This section replaces the need to read everything else on a busy day.
 
-1. ₿ BTC PULSE
+1. 😱 MARKET SENTIMENT & ON-CHAIN
+   IMPORTANT: Only include a data point if its value is NOT null/None/empty.
+   Skip entire bullet if data is unavailable — do NOT write "N/A".
+   Always include these if available:
+   - Fear & Greed: current value + label | vs 1w ago | vs 1m ago → GREEDY / FEARFUL / SHIFTING
+   - Stablecoin supply: total + trend (GROWING = dry powder / SHRINKING = exiting)
+   - ETF Flows: BTC ETF net flow today + 7d cumulative → institutional sentiment
+   Only include if data is non-null:
+   - Funding Rates BTC/ETH/SOL: avg rate + signal
+   - Liquidations 24h: total + long vs short
+   - Long/Short Ratio: % long / % short
+   - Exchange Netflow BTC: inflow or outflow signal
+   - BTC/SPX correlation: 30d + 90d (only if computed successfully)
+   - BTC/Gold correlation: 30d + 90d (only if computed successfully)
+   - **Verdict: HEALTHY / STRETCHED / DANGEROUS** — one sentence based on available data
+
+3. ₿ BTC PULSE
    Output as 3 clearly separated sub-sections with a blank line between each.
    Use ## sub-headers for each sub-section so they render as distinct paragraphs.
 
@@ -1453,7 +1469,6 @@ IMPORTANT: If a data value is missing or null — OMIT that bullet point entirel
    - RSI Weekly: only include if rsi_weekly is not null
    - MA Signal: only include if ma50_weekly or ma200_weekly is not null
    - If RSI/MA data is null, use price structure and daily RSI instead — note it
-   - Fear & Greed: current value + label | 1w ago: value + label | change: +/-X → SHIFTING / STABLE
 
    ## 🌊 Global Liquidity
    (use exactly "## 🌊 Global Liquidity" as the sub-header — two hash signs)
@@ -1483,7 +1498,7 @@ IMPORTANT: If a data value is missing or null — OMIT that bullet point entirel
        Macro alignment:          0-1 pt  (liquidity expanding = +1)
      Show breakdown: e.g. "7/10 (3+2+1+1+0)"
 
-3. 📊 CATEGORY SCORECARD
+4. 📊 CATEGORY SCORECARD
    Output as markdown pipe table:
    | Category | 24h | 7d | Signal | Tag | Revenue? |
    |----------|-----|----|--------|-----|----------|
@@ -1493,7 +1508,7 @@ IMPORTANT: If a data value is missing or null — OMIT that bullet point entirel
    Tag: NEW / CONFIRMED / FADING
    Revenue?: Strong / Speculative / Mixed
 
-4. 💰 REVENUE LEADERS
+5. 💰 REVENUE LEADERS
    Take the highest_fees list from TOP MOVERS data. It is already sorted by fees_1y descending.
    DO NOT reorder — output rows in EXACTLY the order given in highest_fees.
    Output as markdown pipe table:
@@ -1503,7 +1518,7 @@ IMPORTANT: If a data value is missing or null — OMIT that bullet point entirel
    - Max 15 rows, same order as data
    - Symbol column: use ONLY the token symbol (e.g. SOL, AAVE, UNI) — NO protocol names in parentheses, NO italics
 
-5. 🎭 MEME WATCH
+6. 🎭 MEME WATCH
    Output as markdown pipe table:
    | Symbol | Rank | 24h | 7d | 30d | Vol 24h | Signal |
    |--------|------|-----|----|-----|---------|--------|
@@ -1513,35 +1528,24 @@ IMPORTANT: If a data value is missing or null — OMIT that bullet point entirel
    Then 2-line macro context: BTC dominance implication for meme season.
    No revenue commentary — purely price/momentum.
 
-6. 😱 MARKET SENTIMENT & ON-CHAIN
-   IMPORTANT: Only include a data point if its value is NOT null/None/empty.
-   Skip entire bullet if data is unavailable — do NOT write "N/A".
-   Always include these if available:
-   - Fear & Greed: current value + label | vs 1w ago | vs 1m ago → GREEDY / FEARFUL / SHIFTING
-   - Stablecoin supply: total + trend (GROWING = dry powder / SHRINKING = exiting)
-   - ETF Flows: BTC ETF net flow today + 7d cumulative → institutional sentiment
-   Only include if data is non-null:
-   - Funding Rates BTC/ETH/SOL: avg rate + signal
-   - Liquidations 24h: total + long vs short
-   - Long/Short Ratio: % long / % short
-   - Exchange Netflow BTC: inflow or outflow signal
-   - BTC/SPX correlation: 30d + 90d (only if computed successfully)
-   - BTC/Gold correlation: 30d + 90d (only if computed successfully)
-   - **Verdict: HEALTHY / STRETCHED / DANGEROUS** — one sentence based on available data
+6. 🔁 SIGNAL UPDATES (memory)
+   - Follow up from previous weeks — confirmed / faded / still building
+   - Output as markdown table: Signal | First Seen | Status | Update based on available data
 
-7. 📅 UPCOMING CATALYSTS (max 4 bullets, one line each)
+9. 📅 UPCOMING CATALYSTS & NEWS
+   Use your web_search tool to find the most important crypto and macro news right now.
+   Search broadly — find what matters this week without being told what to look for.
    Format: [Date] Event — Impact (BULLISH/BEARISH/NEUTRAL)
-   Cover: macro events + crypto-specific. Flag uncertain dates.
+   Max 5 bullets. Current events only — last 7 days or upcoming 30 days.
 
 8. 🔁 SIGNAL UPDATES (memory)
    - Follow up from previous days — confirmed / faded / still building
 
-9. 💡 EARLY RADAR (max 2 setups, 3 lines each)
-   Setup name + why interesting + one confirmation trigger.
-
-10. ⚠️ KEY RISKS (max 3 bullets — be extremely concise)
+9. ⚠️ RISKS THIS WEEK (max 3 bullets — be extremely concise)
     - One sentence per risk: what it is + potential impact
     - Prioritize: BTC technical > macro > regulatory
+
+
 
 STRICT OUTPUT RULES:
 - Complete ALL sections 0 through 10. Never skip or cut a section.
@@ -1556,9 +1560,15 @@ STRICT OUTPUT RULES:
     message = client.messages.create(
         model="claude-sonnet-4-6",
         max_tokens=4096,
+        tools=[{"type": "web_search_20250305", "name": "web_search"}],
         messages=[{"role": "user", "content": prompt}]
     )
-    return message.content[0].text
+    # Extract text from all content blocks (web_search may add tool_use blocks)
+    text_parts = [
+        block.text for block in message.content
+        if hasattr(block, "text") and block.text
+    ]
+    return "\n".join(text_parts)
 
 
 # ── EMAIL ─────────────────────────────────────────────────────────────────────
