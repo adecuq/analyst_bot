@@ -352,13 +352,40 @@
       "ma_cross": null
     }
   },
-  "HIMS": {
-    "first_seen": "2026-05-11",
-    "last_seen": "2026-05-11",
+  "GOOG": {
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
     "times_appeared": 1,
     "discovery_source": "yahoo_trending",
     "rsi_history": [
-      51.3
+      61.5
+    ],
+    "signal_history": [
+      "EXTENDED"
+    ],
+    "last_data": {
+      "ticker": "GOOG",
+      "price": 384.27,
+      "change_1w_%": 10.64,
+      "change_1m_%": 32.87,
+      "volume_ratio": 0.73,
+      "52w_high": 384.27,
+      "near_52w_high": true,
+      "fwd_pe": 30.06,
+      "rsi_weekly": 61.5,
+      "rsi_zone": "EXTENDED",
+      "ma50_weekly": 268.68,
+      "ma200_weekly": null,
+      "ma_cross": null
+    }
+  },
+  "IREN": {
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "times_appeared": 1,
+    "discovery_source": "yahoo_trending",
+    "rsi_history": [
+      50.8
     ],
     "signal_history": [
       "NEUTRAL"
@@ -499,17 +526,44 @@
       "OVERBOUGHT"
     ],
     "last_data": {
-      "ticker": "PENG",
-      "price": 44.23,
-      "change_1w_%": 36.51,
-      "change_1m_%": 165.01,
-      "volume_ratio": 2.07,
-      "52w_high": 44.23,
-      "near_52w_high": true,
-      "fwd_pe": 63185.71,
-      "rsi_weekly": 86.2,
+      "ticker": "NVTS",
+      "price": 17.55,
+      "change_1w_%": 13.37,
+      "change_1m_%": 89.12,
+      "volume_ratio": 1.23,
+      "52w_high": 18.51,
+      "near_52w_high": false,
+      "fwd_pe": null,
+      "rsi_weekly": 77.7,
       "rsi_zone": "OVERBOUGHT",
-      "ma50_weekly": 22.28,
+      "ma50_weekly": 8.87,
+      "ma200_weekly": null,
+      "ma_cross": null
+    }
+  },
+  "OXY": {
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-05",
+    "times_appeared": 1,
+    "discovery_source": "yahoo_trending",
+    "rsi_history": [
+      68.8
+    ],
+    "signal_history": [
+      "EXTENDED"
+    ],
+    "last_data": {
+      "ticker": "OXY",
+      "price": 59.34,
+      "change_1w_%": -2.34,
+      "change_1m_%": -3.12,
+      "volume_ratio": 0.59,
+      "52w_high": 66.24,
+      "near_52w_high": false,
+      "fwd_pe": 36.66,
+      "rsi_weekly": 68.8,
+      "rsi_zone": "EXTENDED",
+      "ma50_weekly": 46.63,
       "ma200_weekly": null,
       "ma_cross": null
     }

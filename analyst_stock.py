@@ -113,7 +113,8 @@ def fetch_forward_pe(ticker: str):
         soup = BeautifulSoup(resp.text, "html.parser")
         tds  = soup.find_all("td")
         for i, td in enumerate(tds):
-            if td.text.strip() in ("Fwd P/E", "P/E") and i + 1 < len(tds):
+            # Match ONLY "Fwd P/E" — never trailing P/E
+            if td.text.strip() == "Fwd P/E" and i + 1 < len(tds):
                 val = tds[i + 1].text.strip()
                 result = float(val) if val not in ("-", "N/A", "") else None
                 FINVIZ_CACHE[ticker] = result

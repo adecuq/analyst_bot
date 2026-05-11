@@ -3,7 +3,7 @@ name: 📈 Weekly Stock Brief
 on:
   schedule:
     # Every monday at 7:30 AM Paris time (= 5:30 AM UTC)
-    - cron: "30 5 * * 1"
+    - cron: "30 3 * * 1"
   workflow_dispatch:
 
 jobs:

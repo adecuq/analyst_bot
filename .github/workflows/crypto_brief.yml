@@ -3,7 +3,7 @@ name: 🪙 Daily Crypto Brief
 on:
   schedule:
     # Every Monday at 7:30 AM Paris time (= 5:30 AM UTC)
-    - cron: "30 5 * * 1"
+    - cron: "00 4 * * 1"
   workflow_dispatch:
 
 jobs:
