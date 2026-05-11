@@ -101,10 +101,17 @@ def style_html_table(html: str, accent: str) -> str:
 # ── INLINE MARKDOWN ───────────────────────────────────────────────────────────
 
 def apply_inline(line: str, accent: str) -> str:
-    """Convert **bold** and `code` to HTML inline styles."""
+    """Convert **bold**, *italic*, and `code` to HTML inline styles."""
+    # Bold first (** before *)
     line = re.sub(
         r'\*\*(.+?)\*\*',
         lambda m: f'<strong style="color:{accent};">{m.group(1)}</strong>',
+        line
+    )
+    # Italic
+    line = re.sub(
+        r'\*(.+?)\*',
+        lambda m: f'<em style="color:#666;">{m.group(1)}</em>',
         line
     )
     bg = "#f5ead0" if accent == "#b35a00" else "#eaf3ec"
@@ -185,23 +192,19 @@ def markdown_to_html(text: str, accent: str = "#b35a00") -> str:
             if in_list: output.append("</ul>"); in_list = False
             output.append(line)
 
-        elif re.match(r'^# (.+)', line):
+        elif re.match(r'^#{1,3}\s+.+', line) or re.match(r'^#{1,3}[^ ]', line):
             if in_list: output.append("</ul>"); in_list = False
-            title = re.sub(r'^# ', '', line)
-            output.append(
-                f'<h1 style="color:{accent};font-size:20px;margin:12px 0 6px;'
-                f'border-bottom:2px solid {sep_color};padding-bottom:6px;">{title}</h1>'
-            )
-
-        elif re.match(r'^## (.+)', line):
-            if in_list: output.append("</ul>"); in_list = False
-            title = re.sub(r'^## ', '', line)
-            output.append(f'<h2 style="color:{accent};font-size:17px;margin:10px 0 4px;">{title}</h2>')
-
-        elif re.match(r'^### (.+)', line):
-            if in_list: output.append("</ul>"); in_list = False
-            title = re.sub(r'^### ', '', line)
-            output.append(f'<h3 style="color:#2c2c2c;font-size:15px;margin:16px 0 4px;">{title}</h3>')
+            level = len(re.match(r'^(#{1,3})', line).group(1))
+            title = re.sub(r'^#{1,3}\s*', '', line)
+            if level == 1:
+                output.append(
+                    f'<div style="color:{accent};font-size:20px;font-weight:bold;margin:12px 0 6px;'
+                    f'border-bottom:2px solid {sep_color};padding-bottom:6px;">{title}</div>'
+                )
+            elif level == 2:
+                output.append(f'<div style="color:{accent};font-size:16px;font-weight:bold;margin:10px 0 4px;">{title}</div>')
+            else:
+                output.append(f'<div style="color:#2c2c2c;font-size:14px;font-weight:bold;margin:8px 0 4px;">{title}</div>')
 
         elif re.match(r'^[-*] (.+)', line):
             if not in_list:

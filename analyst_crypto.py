@@ -697,7 +697,7 @@ def fetch_correlations(top100: list) -> dict:
 
         btc_30  = get_prices("bitcoin", 30)
         time.sleep(6)
-        btc_90  = get_prices("bitcoin", 90)
+        btc_90  = get_prices("bitcoin", 210)  # 210 days = ~30 weekly candles for RSI(14)
         time.sleep(6)
         spx_30  = get_tradfi_prices("^GSPC", 30)
         time.sleep(2)
@@ -778,7 +778,7 @@ def fetch_global_market() -> dict:
         # Simplest reliable approach: dom_past = btc_mcap_past / btc_mcap_now * btc_dom_now
         btc_now = btc_mcaps[-1][1] if btc_mcaps else None
 
-        def dom_at_days(days_ago: int) -> float | None:
+        def dom_at_days(days_ago: int) -> "float | None":
             try:
                 idx      = -(days_ago + 1)
                 btc_past = btc_mcaps[idx][1]
@@ -880,12 +880,12 @@ def fetch_crypto_top100() -> list:
 
 
 def fetch_btc_ohlc() -> list:
-    """Fetch BTC daily OHLC for 90 days (for Fibonacci + RSI weekly)."""
+    """Fetch BTC daily OHLC for 180 days — enough for 26 weekly candles → RSI(14) computable."""
     print("📡 Fetching BTC OHLC data...")
     try:
         resp = requests.get(
             "https://api.coingecko.com/api/v3/coins/bitcoin/ohlc",
-            params={"vs_currency": "usd", "days": "90"},
+            params={"vs_currency": "usd", "days": "180"},
             timeout=15
         )
         resp.raise_for_status()
@@ -898,7 +898,7 @@ def fetch_btc_ohlc() -> list:
 
 # ── TECHNICAL ANALYSIS ────────────────────────────────────────────────────────
 
-def compute_rsi(closes: list, period: int = 14) -> float | None:
+def compute_rsi(closes: list, period: int = 14) -> "float | None":
     """Compute RSI from a list of close prices."""
     if len(closes) < period + 1:
         return None
@@ -1429,6 +1429,11 @@ Today is {date}.
 YOUR BRIEF — 12 sections:
 ═══════════════════════════════════════════
 
+FORMATTING RULES:
+- Use ## (two hash signs) for sub-sections, # (one hash) for main sections
+- Never write ## or # as literal text — they must be on their own line to render as headers
+- Sub-headers inside section 1 BTC PULSE must use ## not #
+
 IMPORTANT: If a data value is missing or null — OMIT that bullet point entirely. Do NOT write "N/A". Do NOT mention the data is unavailable. Just skip it silently. Exception: table cells use "—" if a specific column value is missing.
 
 0. 🧠 EXECUTIVE SUMMARY (5 lines max — write this FIRST)
@@ -1442,6 +1447,7 @@ IMPORTANT: If a data value is missing or null — OMIT that bullet point entirel
    Use ## sub-headers for each sub-section so they render as distinct paragraphs.
 
    ## Price & Technicals
+   (use exactly "## Price & Technicals" as the sub-header — two hash signs)
    - Price: $X | 1d: X% | 1w: X% | 1m: X%
    - Fibonacci: nearest support + resistance from last major impulse
    - RSI Weekly: only include if rsi_weekly is not null
@@ -1449,11 +1455,13 @@ IMPORTANT: If a data value is missing or null — OMIT that bullet point entirel
    - If RSI/MA data is null, use price structure and daily RSI instead — note it
 
    ## 🌊 Global Liquidity
+   (use exactly "## 🌊 Global Liquidity" as the sub-header — two hash signs)
    - US M2: $XB | 1m: X% | 3m: X% | 12m: X% → EXPANDING or CONTRACTING
    - Fed Balance Sheet: X% (3m) / X% (12m) → QE or QT signal
    - **Verdict: TAILWIND / NEUTRAL / HEADWIND** — one sentence explanation
 
    ## 🔄 BTC Dominance & Rotation
+   (use exactly "## 🔄 BTC Dominance & Rotation" as the sub-header — two hash signs)
    - Dominance: X% | 1w: +/-X% | 1m: +/-X%
    - ETH/BTC ratio trend + Total2 altcoin market cap
    - **Current Phase: PHASE X — [NAME]** — 2 sentences max explaining why
