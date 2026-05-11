@@ -633,11 +633,10 @@ A signal is stronger when it propagates across multiple chain layers.
 7. 💡 EARLY RADAR
    - 1-2 chains too early to call — weeks on watch, what would confirm?
 
-7. 📅 UPCOMING CATALYSTS & NEWS
+7. 📅 UPCOMING CATALYSTS & NEWS (max 3 bullets — one line each, no elaboration)
    Use your web_search tool to find the most important macro and market news right now.
    Search broadly — find what matters this week without being told what to look for.
    Format: [Date] Event — Impact (BULLISH/BEARISH/NEUTRAL)
-   Max 4 bullets. Current events only — no training data guesses.
 
 8. ⚠️ RISKS THIS WEEK
 

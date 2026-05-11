@@ -3,84 +3,84 @@
     "signals": {
       "categories": {
         "Layer 1": {
-          "change_7d_%": 10.77,
-          "change_24h_%": 0.24034794074806595
+          "change_7d_%": 11.18,
+          "change_24h_%": 0.23482015885382254
         },
         "AI Crypto": {
-          "change_7d_%": 10.47,
-          "change_24h_%": 0.9390435855402868
+          "change_7d_%": 10.51,
+          "change_24h_%": 1.2208459626969959
         },
         "DeFi": {
-          "change_7d_%": 10.35,
-          "change_24h_%": 0.7497464484758122
+          "change_7d_%": 10.31,
+          "change_24h_%": 0.6502772371652885
         },
         "RWA": {
-          "change_7d_%": 38.29,
-          "change_24h_%": -0.742748916703028
+          "change_7d_%": 37.73,
+          "change_24h_%": -0.9047134547128638
         },
         "SOL Ecosystem": {
-          "change_7d_%": 23.63,
+          "change_7d_%": 23.55,
           "change_24h_%": null
         },
         "Meme Coins": {
-          "change_7d_%": 6.3,
-          "change_24h_%": 0.5888358115388349
+          "change_7d_%": 6.39,
+          "change_24h_%": -0.13643903092517584
         },
         "Privacy": {
-          "change_7d_%": 19.1,
-          "change_24h_%": -2.580973673775862
+          "change_7d_%": 19.46,
+          "change_24h_%": -2.3563762464599933
         },
         "Stablecoins": {
-          "change_7d_%": 0.0,
-          "change_24h_%": 0.06344949919424578
+          "change_7d_%": -0.0,
+          "change_24h_%": 0.12975304459310116
         },
         "Liquid Staking": {
           "change_7d_%": null,
-          "change_24h_%": 0.5570611443070695
+          "change_24h_%": 0.39144714098051786
         },
         "DePin": {
-          "change_7d_%": 18.62,
-          "change_24h_%": 0.515176159117818
+          "change_7d_%": 18.66,
+          "change_24h_%": 0.4511632716671352
         }
       },
       "notable_coins": {
         "TON": {
-          "change_7d_%": 64.89,
-          "change_30d_%": 76.23,
+          "change_7d_%": 65.68,
+          "change_30d_%": 77.07,
           "rank": 20,
           "fees_24h": 4684,
           "tvl": null
         },
         "JUP": {
-          "change_7d_%": 41.56,
-          "change_30d_%": 58.09,
+          "change_7d_%": 41.22,
+          "change_30d_%": 57.71,
           "rank": 81,
           "fees_24h": null,
-          "tvl": 999098815.3652486
+          "tvl": 997018302.8600001
         },
         "ONDO": {
-          "change_7d_%": 38.29,
-          "change_30d_%": 69.91,
+          "change_7d_%": 37.73,
+          "change_30d_%": 69.22,
           "rank": 45,
           "fees_24h": null,
           "tvl": 2771544821.8029733
         },
         "SUI": {
-          "change_7d_%": 34.03,
-          "change_30d_%": 35.75,
+          "change_7d_%": 35.53,
+          "change_30d_%": 37.28,
           "rank": 23,
           "fees_24h": 21071,
           "tvl": null
         },
-        "ENA": {
-          "change_7d_%": 20.32,
-          "change_30d_%": 37.41,
-          "rank": 64,
-          "fees_24h": null,
-          "tvl": 3978809202.741108
+        "NEAR": {
+          "change_7d_%": 20.96,
+          "change_30d_%": 16.74,
+          "rank": 46,
+          "fees_24h": 1169,
+          "tvl": null
         }
       }
     },
-    "brief_summary": "## 0. \ud83e\udde0 EXECUTIVE SUMMARY\n\n- **BTC at $80,749** \u2014 holding above the 23.6% Fib support ($78,044), +11% on the month, but still 36% below ATH; structure is constructive but not explosive.\n- **RWA sector is the standout rotation** \u2014 ONDO +38% 7d, +70% 30d; BlackRock's BUIDL growing TVL +5.8% weekly; institutional capital is clearly moving on-chain.\n- **Biggest risk:** BTC dominance surged +5.5% in 30 days to 58.2% \u2014 altcoins are broadly recovering but ETH is still lagging (-1.91% 7d vs BTC +0.92%), signaling rotation is selective, not broad.\n- **Liquidity signal is a tailwind:** US M2 expanding +"
+    "brief_summary": "Here is the full analysis for **May 11, 2026**:\n\n---\n\n# 0. \ud83e\udde0 EXECUTIVE SUMMARY\n\n- **BTC at $80,711**, holding between Fib 50% support ($82,756) and 61.8% support ($77,446) \u2014 constructive recovery from extreme fear lows, but still 36% below ATH; needs $83K+ close to shift structure bullish.\n- **RWA is the week's dominant rotation** (+37.7% 7d), led by ONDO (+37.7% 7d, +69% 30d) with $2.77B TVL \u2014 tokenization thesis gaining institutional traction via BlackRock BUIDL (TVL +5.8% 7d) and Coinbase/Centrifuge partnership.\n- **Biggest risk:** \nAnalysts flagged a potential BTC technical breakdown towar"
   }
 }

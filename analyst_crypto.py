@@ -1528,21 +1528,29 @@ IMPORTANT: If a data value is missing or null — OMIT that bullet point entirel
    Then 2-line macro context: BTC dominance implication for meme season.
    No revenue commentary — purely price/momentum.
 
-6. 🔁 SIGNAL UPDATES (memory)
-   - Follow up from previous weeks — confirmed / faded / still building
-   - Output as markdown table: Signal | First Seen | Status | Update based on available data
+6. 🎭 MEME WATCH
+   Output as markdown pipe table:
+   | Symbol | Rank | 24h | 7d | 30d | Vol 24h | Signal |
+   |--------|------|-----|----|-----|---------|--------|
+   Always include: DOGE, PEPE, BONK + top movers from the meme list.
+   Pull trendy memes from rank 100-300 if showing unusual momentum.
+   Signal column: 🔥 HOT / 📈 BUILDING / ➡️ SIDEWAYS / 🔻 FADING
+   Then 2-line macro context: BTC dominance implication for meme season.
+   No revenue commentary — purely price/momentum.
 
-9. 📅 UPCOMING CATALYSTS & NEWS
+7. 💡 EARLY RADAR (max 2 setups, 3 lines each)
+   Setup name + why interesting + one confirmation trigger.
+
+8. 🔁 SIGNAL UPDATES (memory)
+   - Follow up from previous weeks — confirmed / faded / still building
+   - Output as markdown table: Signal | First Seen | Status | Update
+
+9. 📅 UPCOMING CATALYSTS & NEWS (max 3 bullets — one line each, no elaboration)
    Use your web_search tool to find the most important crypto and macro news right now.
    Search broadly — find what matters this week without being told what to look for.
    Format: [Date] Event — Impact (BULLISH/BEARISH/NEUTRAL)
-   Max 5 bullets. Current events only — last 7 days or upcoming 30 days.
 
-8. 🔁 SIGNAL UPDATES (memory)
-   - Follow up from previous days — confirmed / faded / still building
-
-9. ⚠️ RISKS THIS WEEK (max 3 bullets — be extremely concise)
-    - One sentence per risk: what it is + potential impact
+10. ⚠️ RISKS THIS WEEK (max 3 bullets — one sentence each)
     - Prioritize: BTC technical > macro > regulatory
 
 

@@ -213,6 +213,9 @@ def markdown_to_html(text: str, accent: str = "#b35a00") -> str:
             inner = apply_inline(re.sub(r'^[-*] ', '', line), accent)
             output.append(f'<li style="margin:3px 0;">{inner}</li>')
 
+        elif re.match(r'^[-*]\s*$', line):
+            pass  # skip empty bullet lines
+
         elif re.match(r'^---+$', line):
             if in_list: output.append("</ul>"); in_list = False
             output.append(f'<hr style="border:none;border-top:1px solid {sep_color};margin:16px 0;">')
