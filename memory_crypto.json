@@ -82,5 +82,89 @@
       }
     },
     "brief_summary": "Here is the full analysis for **May 11, 2026**:\n\n---\n\n# 0. \ud83e\udde0 EXECUTIVE SUMMARY\n\n- **BTC at $80,711**, holding between Fib 50% support ($82,756) and 61.8% support ($77,446) \u2014 constructive recovery from extreme fear lows, but still 36% below ATH; needs $83K+ close to shift structure bullish.\n- **RWA is the week's dominant rotation** (+37.7% 7d), led by ONDO (+37.7% 7d, +69% 30d) with $2.77B TVL \u2014 tokenization thesis gaining institutional traction via BlackRock BUIDL (TVL +5.8% 7d) and Coinbase/Centrifuge partnership.\n- **Biggest risk:** \nAnalysts flagged a potential BTC technical breakdown towar"
+  },
+  "2026-05-18": {
+    "signals": {
+      "categories": {
+        "Layer 1": {
+          "change_7d_%": -9.15,
+          "change_24h_%": -1.6443991591446039
+        },
+        "AI Crypto": {
+          "change_7d_%": -15.76,
+          "change_24h_%": -2.4777963354563863
+        },
+        "DeFi": {
+          "change_7d_%": -12.28,
+          "change_24h_%": 0.14973248882817905
+        },
+        "RWA": {
+          "change_7d_%": -20.79,
+          "change_24h_%": -1.0999281962257563
+        },
+        "SOL Ecosystem": {
+          "change_7d_%": -17.55,
+          "change_24h_%": null
+        },
+        "Meme Coins": {
+          "change_7d_%": -11.12,
+          "change_24h_%": -2.957448963928994
+        },
+        "Privacy": {
+          "change_7d_%": -5.57,
+          "change_24h_%": 1.8084106527255464
+        },
+        "Stablecoins": {
+          "change_7d_%": -0.01,
+          "change_24h_%": 0.0068794195522305585
+        },
+        "Liquid Staking": {
+          "change_7d_%": null,
+          "change_24h_%": -1.8292916399757375
+        },
+        "DePin": {
+          "change_7d_%": -17.65,
+          "change_24h_%": -2.6710805142377807
+        }
+      },
+      "notable_coins": {
+        "HYPE": {
+          "change_7d_%": 7.99,
+          "change_30d_%": 1.07,
+          "rank": 13,
+          "fees_24h": null,
+          "tvl": 4981480588.350284
+        },
+        "ATOM": {
+          "change_7d_%": 2.78,
+          "change_30d_%": 11.66,
+          "rank": 67,
+          "fees_24h": 93,
+          "tvl": null
+        },
+        "JST": {
+          "change_7d_%": 2.1,
+          "change_30d_%": 27.42,
+          "rank": 81,
+          "fees_24h": null,
+          "tvl": 3551375783.3552704
+        },
+        "TRX": {
+          "change_7d_%": 1.78,
+          "change_30d_%": 8.75,
+          "rank": 8,
+          "fees_24h": 821581,
+          "tvl": null
+        },
+        "BCAP": {
+          "change_7d_%": 0.09,
+          "change_30d_%": 27.92,
+          "rank": 71,
+          "fees_24h": 66075,
+          "tvl": 964699191.57
+        }
+      }
+    },
+    "brief_summary": "Here is the full analysis for **May 18, 2026**:\n\n---\n\n# 0. \ud83e\udde0 EXECUTIVE SUMMARY\n\n- **BTC at $77,085**, down -4.65% on the week and sitting just below the Fib 50% support ($78,980) \u2014 a technically vulnerable zone; next major test is the 61.8% at $74,561.\n- **HYPE is the only top-100 asset posting green on the week (+7.99%)**, backed by $600M+ annualized real fee revenue and a HYPE spot ETF launch \u2014 a pure revenue-backed outlier in a sea of red.\n- **Biggest risk this week**: BTC dominance collapsed -3.5% in 7 days (61.8% \u2192 58.3%), but altcoins are NOT rallying \u2014 this is a dominance drop driven by"
   }
 }
