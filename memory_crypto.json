@@ -250,5 +250,89 @@
       }
     },
     "brief_summary": "Here is the full analysis for **May 25, 2026**:\n\n---\n\n# 0. \ud83e\udde0 EXECUTIVE SUMMARY\n\n- **BTC at $77,254**, recovering from the $76K support zone \u2014 technically constructive but still below key Fib 50% at ~$82K; market remains in \"Fear\" and below ATH by 38.7%\n- **RWA is the dominant sector rotation this week** (+30.5% 7d), backed by real infrastructure: \ntotal on-chain RWA value crossed $20B, with tokenized US Treasuries on Ethereum alone hitting $8B all-time high\n\n- **NEAR is the week's standout AI Crypto mover** (+60.7% 7d): \nNEAR surged ~50% over seven days after BitMEX co-founder Arthur Hayes inc"
+  },
+  "2026-06-01": {
+    "signals": {
+      "categories": {
+        "Layer 1": {
+          "change_7d_%": -5.17,
+          "change_24h_%": -1.2604555072540538
+        },
+        "AI Crypto": {
+          "change_7d_%": 13.07,
+          "change_24h_%": -0.37624759164925253
+        },
+        "DeFi": {
+          "change_7d_%": -8.95,
+          "change_24h_%": 3.8367157314544897
+        },
+        "RWA": {
+          "change_7d_%": -19.16,
+          "change_24h_%": 0.21522260560880463
+        },
+        "SOL Ecosystem": {
+          "change_7d_%": -5.99,
+          "change_24h_%": null
+        },
+        "Meme Coins": {
+          "change_7d_%": -4.2,
+          "change_24h_%": -0.12184835320948448
+        },
+        "Privacy": {
+          "change_7d_%": -12.26,
+          "change_24h_%": 1.0791664522606568
+        },
+        "Stablecoins": {
+          "change_7d_%": -0.03,
+          "change_24h_%": 0.05830387109585006
+        },
+        "Liquid Staking": {
+          "change_7d_%": null,
+          "change_24h_%": -0.9574289052150702
+        },
+        "DePin": {
+          "change_7d_%": -4.87,
+          "change_24h_%": -2.320531760746953
+        }
+      },
+      "notable_coins": {
+        "WLD": {
+          "change_7d_%": 27.68,
+          "change_30d_%": 60.53,
+          "rank": 62,
+          "fees_24h": null,
+          "tvl": null
+        },
+        "INJ": {
+          "change_7d_%": 24.66,
+          "change_30d_%": 73.22,
+          "rank": 90,
+          "fees_24h": 13157,
+          "tvl": 14382494.568897441
+        },
+        "HYPE": {
+          "change_7d_%": 15.16,
+          "change_30d_%": 73.79,
+          "rank": 10,
+          "fees_24h": null,
+          "tvl": 5505115791.353866
+        },
+        "TON": {
+          "change_7d_%": 7.54,
+          "change_30d_%": 46.02,
+          "rank": 24,
+          "fees_24h": 2540,
+          "tvl": null
+        },
+        "BNB": {
+          "change_7d_%": 5.02,
+          "change_30d_%": 12.73,
+          "rank": 4,
+          "fees_24h": 337856,
+          "tvl": 151481319909.53116
+        }
+      }
+    },
+    "brief_summary": "Now I have all the data I need. Let me compile the full analysis.\n\n---\n\n# 0. \ud83e\udde0 EXECUTIVE SUMMARY\n\n- **BTC at $72,956**, down -5.68% on the week and pressing against Fib 61.8% support (~$74,561) \u2014 a critical hold zone; failure targets $68,270 next, while the $75K region is the line in the sand for bulls.\n- **HYPE is the standout trade of the week** \u2014 new ATH ($73.79 today), +73.79% in 30 days, fueled by CFTC perpetual futures approval, Grayscale ETF filing, $2B+ in cumulative buybacks, and 70%+ dominance of the decentralized perps market; this is revenue-backed, not narrative-only.\n- **BTC domi"
   }
 }
