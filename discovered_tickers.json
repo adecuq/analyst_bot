@@ -1,4 +1,31 @@
 {
+  "AAL": {
+    "first_seen": "2026-06-08",
+    "last_seen": "2026-06-08",
+    "times_appeared": 1,
+    "discovery_source": "yahoo_trending",
+    "rsi_history": [
+      51.7
+    ],
+    "signal_history": [
+      "NEUTRAL"
+    ],
+    "last_data": {
+      "ticker": "AAL",
+      "price": 13.5,
+      "change_1w_%": -5.86,
+      "change_1m_%": 11.57,
+      "volume_ratio": 1.68,
+      "52w_high": 14.92,
+      "near_52w_high": false,
+      "fwd_pe": null,
+      "rsi_weekly": 51.7,
+      "rsi_zone": "NEUTRAL",
+      "ma50_weekly": 12.94,
+      "ma200_weekly": null,
+      "ma_cross": null
+    }
+  },
   "ABCL": {
     "first_seen": "2026-06-01",
     "last_seen": "2026-06-01",
@@ -76,6 +103,33 @@
       "rsi_weekly": 19.0,
       "rsi_zone": "OVERSOLD",
       "ma50_weekly": 11.89,
+      "ma200_weekly": null,
+      "ma_cross": null
+    }
+  },
+  "BATL": {
+    "first_seen": "2026-06-08",
+    "last_seen": "2026-06-08",
+    "times_appeared": 1,
+    "discovery_source": "yahoo_trending",
+    "rsi_history": [
+      44.6
+    ],
+    "signal_history": [
+      "NEUTRAL_LOW"
+    ],
+    "last_data": {
+      "ticker": "BATL",
+      "price": 1.32,
+      "change_1w_%": -19.51,
+      "change_1m_%": -64.71,
+      "volume_ratio": 0.44,
+      "52w_high": 3.93,
+      "near_52w_high": false,
+      "fwd_pe": null,
+      "rsi_weekly": 44.6,
+      "rsi_zone": "NEUTRAL_LOW",
+      "ma50_weekly": 2.88,
       "ma200_weekly": null,
       "ma_cross": null
     }
@@ -190,27 +244,29 @@
   },
   "CVX": {
     "first_seen": "2026-05-25",
-    "last_seen": "2026-05-25",
-    "times_appeared": 1,
+    "last_seen": "2026-06-08",
+    "times_appeared": 2,
     "discovery_source": "yahoo_trending",
     "rsi_history": [
-      56.7
+      56.7,
+      51.3
     ],
     "signal_history": [
+      "NEUTRAL",
       "NEUTRAL"
     ],
     "last_data": {
       "ticker": "CVX",
-      "price": 191.43,
-      "change_1w_%": -1.5,
-      "change_1m_%": 0.73,
-      "volume_ratio": 0.72,
+      "price": 187.31,
+      "change_1w_%": 0.8,
+      "change_1m_%": 2.06,
+      "volume_ratio": 0.65,
       "52w_high": 197.25,
-      "near_52w_high": true,
+      "near_52w_high": false,
       "fwd_pe": null,
-      "rsi_weekly": 56.7,
+      "rsi_weekly": 51.3,
       "rsi_zone": "NEUTRAL",
-      "ma50_weekly": 162.48,
+      "ma50_weekly": 164.17,
       "ma200_weekly": null,
       "ma_cross": null
     }
@@ -298,35 +354,37 @@
   },
   "DJT": {
     "first_seen": "2026-05-05",
-    "last_seen": "2026-06-01",
-    "times_appeared": 5,
+    "last_seen": "2026-06-08",
+    "times_appeared": 6,
     "discovery_source": "yahoo_trending",
     "rsi_history": [
       28.8,
       27.9,
       31.8,
       30.8,
-      45.2
+      45.2,
+      36.2
     ],
     "signal_history": [
       "OVERSOLD",
       "OVERSOLD",
       "NEUTRAL_LOW",
       "NEUTRAL_LOW",
-      "NEUTRAL"
+      "NEUTRAL",
+      "NEUTRAL_LOW"
     ],
     "last_data": {
       "ticker": "DJT",
-      "price": 9.31,
-      "change_1w_%": 17.11,
-      "change_1m_%": -9.26,
-      "volume_ratio": 1.88,
-      "52w_high": 10.26,
+      "price": 8.27,
+      "change_1w_%": -12.67,
+      "change_1m_%": -11.55,
+      "volume_ratio": 1.17,
+      "52w_high": 9.95,
       "near_52w_high": false,
       "fwd_pe": null,
-      "rsi_weekly": 45.2,
-      "rsi_zone": "NEUTRAL",
-      "ma50_weekly": 13.54,
+      "rsi_weekly": 36.2,
+      "rsi_zone": "NEUTRAL_LOW",
+      "ma50_weekly": 13.35,
       "ma200_weekly": null,
       "ma_cross": null
     }
@@ -437,6 +495,33 @@
       "rsi_weekly": 67.6,
       "rsi_zone": "EXTENDED",
       "ma50_weekly": 17.28,
+      "ma200_weekly": null,
+      "ma_cross": null
+    }
+  },
+  "FCEL": {
+    "first_seen": "2026-06-08",
+    "last_seen": "2026-06-08",
+    "times_appeared": 1,
+    "discovery_source": "yahoo_trending",
+    "rsi_history": [
+      66.5
+    ],
+    "signal_history": [
+      "EXTENDED"
+    ],
+    "last_data": {
+      "ticker": "FCEL",
+      "price": 17.33,
+      "change_1w_%": -18.68,
+      "change_1m_%": 55.01,
+      "volume_ratio": 0.97,
+      "52w_high": 26.38,
+      "near_52w_high": false,
+      "fwd_pe": null,
+      "rsi_weekly": 66.5,
+      "rsi_zone": "EXTENDED",
+      "ma50_weekly": 8.52,
       "ma200_weekly": null,
       "ma_cross": null
     }
@@ -630,6 +715,33 @@
       "ma_cross": null
     }
   },
+  "GPUS": {
+    "first_seen": "2026-06-08",
+    "last_seen": "2026-06-08",
+    "times_appeared": 1,
+    "discovery_source": "yahoo_trending",
+    "rsi_history": [
+      44.6
+    ],
+    "signal_history": [
+      "NEUTRAL_LOW"
+    ],
+    "last_data": {
+      "ticker": "GPUS",
+      "price": 0.15,
+      "change_1w_%": -16.67,
+      "change_1m_%": -6.25,
+      "volume_ratio": 0.76,
+      "52w_high": 0.23,
+      "near_52w_high": false,
+      "fwd_pe": null,
+      "rsi_weekly": 44.6,
+      "rsi_zone": "NEUTRAL_LOW",
+      "ma50_weekly": 0.39,
+      "ma200_weekly": null,
+      "ma_cross": null
+    }
+  },
   "HCWB": {
     "first_seen": "2026-05-18",
     "last_seen": "2026-05-18",
@@ -653,6 +765,33 @@
       "rsi_weekly": 53.3,
       "rsi_zone": "NEUTRAL",
       "ma50_weekly": 2.59,
+      "ma200_weekly": null,
+      "ma_cross": null
+    }
+  },
+  "HIVE": {
+    "first_seen": "2026-06-08",
+    "last_seen": "2026-06-08",
+    "times_appeared": 1,
+    "discovery_source": "yahoo_trending",
+    "rsi_history": [
+      68.6
+    ],
+    "signal_history": [
+      "EXTENDED"
+    ],
+    "last_data": {
+      "ticker": "HIVE",
+      "price": 3.77,
+      "change_1w_%": -20.8,
+      "change_1m_%": 49.6,
+      "volume_ratio": 0.98,
+      "52w_high": 4.76,
+      "near_52w_high": false,
+      "fwd_pe": null,
+      "rsi_weekly": 68.6,
+      "rsi_zone": "EXTENDED",
+      "ma50_weekly": 3.04,
       "ma200_weekly": null,
       "ma_cross": null
     }
@@ -761,6 +900,33 @@
       "rsi_weekly": 51.3,
       "rsi_zone": "NEUTRAL",
       "ma50_weekly": 39.22,
+      "ma200_weekly": null,
+      "ma_cross": null
+    }
+  },
+  "LLY": {
+    "first_seen": "2026-06-08",
+    "last_seen": "2026-06-08",
+    "times_appeared": 1,
+    "discovery_source": "yahoo_trending",
+    "rsi_history": [
+      57.1
+    ],
+    "signal_history": [
+      "NEUTRAL"
+    ],
+    "last_data": {
+      "ticker": "LLY",
+      "price": 1131.42,
+      "change_1w_%": 4.55,
+      "change_1m_%": 28.21,
+      "volume_ratio": 1.19,
+      "52w_high": 1131.42,
+      "near_52w_high": true,
+      "fwd_pe": null,
+      "rsi_weekly": 57.1,
+      "rsi_zone": "NEUTRAL",
+      "ma50_weekly": 916.19,
       "ma200_weekly": null,
       "ma_cross": null
     }
@@ -1037,27 +1203,29 @@
   },
   "OXY": {
     "first_seen": "2026-05-05",
-    "last_seen": "2026-05-05",
-    "times_appeared": 1,
+    "last_seen": "2026-06-08",
+    "times_appeared": 2,
     "discovery_source": "yahoo_trending",
     "rsi_history": [
-      68.8
+      68.8,
+      54.6
     ],
     "signal_history": [
-      "EXTENDED"
+      "EXTENDED",
+      "NEUTRAL"
     ],
     "last_data": {
       "ticker": "OXY",
-      "price": 59.34,
-      "change_1w_%": -2.34,
-      "change_1m_%": -3.12,
-      "volume_ratio": 0.59,
-      "52w_high": 66.24,
+      "price": 56.93,
+      "change_1w_%": -3.38,
+      "change_1m_%": -0.33,
+      "volume_ratio": 0.7,
+      "52w_high": 60.76,
       "near_52w_high": false,
-      "fwd_pe": 36.66,
-      "rsi_weekly": 68.8,
-      "rsi_zone": "EXTENDED",
-      "ma50_weekly": 46.63,
+      "fwd_pe": null,
+      "rsi_weekly": 54.6,
+      "rsi_zone": "NEUTRAL",
+      "ma50_weekly": 47.71,
       "ma200_weekly": null,
       "ma_cross": null
     }
@@ -1440,6 +1608,29 @@
       "ma_cross": null
     }
   },
+  "SPCX": {
+    "first_seen": "2026-06-08",
+    "last_seen": "2026-06-08",
+    "times_appeared": 1,
+    "discovery_source": "yahoo_trending",
+    "rsi_history": [],
+    "signal_history": [],
+    "last_data": {
+      "ticker": "SPCX",
+      "price": 135.0,
+      "change_1w_%": 0.0,
+      "change_1m_%": 0.0,
+      "volume_ratio": NaN,
+      "52w_high": 135.0,
+      "near_52w_high": true,
+      "fwd_pe": null,
+      "rsi_weekly": null,
+      "rsi_zone": null,
+      "ma50_weekly": null,
+      "ma200_weekly": null,
+      "ma_cross": null
+    }
+  },
   "TEAM": {
     "first_seen": "2026-06-01",
     "last_seen": "2026-06-01",
@@ -1548,6 +1739,33 @@
       "ma_cross": null
     }
   },
+  "USAR": {
+    "first_seen": "2026-06-08",
+    "last_seen": "2026-06-08",
+    "times_appeared": 1,
+    "discovery_source": "yahoo_trending",
+    "rsi_history": [
+      55.8
+    ],
+    "signal_history": [
+      "NEUTRAL"
+    ],
+    "last_data": {
+      "ticker": "USAR",
+      "price": 22.47,
+      "change_1w_%": -23.65,
+      "change_1m_%": 2.79,
+      "volume_ratio": 1.29,
+      "52w_high": 30.7,
+      "near_52w_high": false,
+      "fwd_pe": null,
+      "rsi_weekly": 55.8,
+      "rsi_zone": "NEUTRAL",
+      "ma50_weekly": 18.32,
+      "ma200_weekly": null,
+      "ma_cross": null
+    }
+  },
   "WYFI": {
     "first_seen": "2026-05-11",
     "last_seen": "2026-05-11",
@@ -1577,27 +1795,29 @@
   },
   "XOM": {
     "first_seen": "2026-05-18",
-    "last_seen": "2026-05-18",
-    "times_appeared": 1,
+    "last_seen": "2026-06-08",
+    "times_appeared": 2,
     "discovery_source": "yahoo_trending",
     "rsi_history": [
-      56.8
+      56.8,
+      49.1
     ],
     "signal_history": [
+      "NEUTRAL",
       "NEUTRAL"
     ],
     "last_data": {
       "ticker": "XOM",
-      "price": 157.92,
-      "change_1w_%": 6.22,
-      "change_1m_%": -2.68,
-      "volume_ratio": 1.52,
-      "52w_high": 162.8,
-      "near_52w_high": true,
+      "price": 149.92,
+      "change_1w_%": 0.36,
+      "change_1m_%": 1.36,
+      "volume_ratio": 0.99,
+      "52w_high": 162.55,
+      "near_52w_high": false,
       "fwd_pe": null,
-      "rsi_weekly": 56.8,
+      "rsi_weekly": 49.1,
       "rsi_zone": "NEUTRAL",
-      "ma50_weekly": 124.82,
+      "ma50_weekly": 127.39,
       "ma200_weekly": null,
       "ma_cross": null
     }
