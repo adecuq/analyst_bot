@@ -334,5 +334,89 @@
       }
     },
     "brief_summary": "Now I have all the data I need. Let me compile the full analysis.\n\n---\n\n# 0. \ud83e\udde0 EXECUTIVE SUMMARY\n\n- **BTC at $72,956**, down -5.68% on the week and pressing against Fib 61.8% support (~$74,561) \u2014 a critical hold zone; failure targets $68,270 next, while the $75K region is the line in the sand for bulls.\n- **HYPE is the standout trade of the week** \u2014 new ATH ($73.79 today), +73.79% in 30 days, fueled by CFTC perpetual futures approval, Grayscale ETF filing, $2B+ in cumulative buybacks, and 70%+ dominance of the decentralized perps market; this is revenue-backed, not narrative-only.\n- **BTC domi"
+  },
+  "2026-06-08": {
+    "signals": {
+      "categories": {
+        "Layer 1": {
+          "change_7d_%": -18.08,
+          "change_24h_%": 3.9232964850092755
+        },
+        "AI Crypto": {
+          "change_7d_%": -4.42,
+          "change_24h_%": 6.073824275382417
+        },
+        "DeFi": {
+          "change_7d_%": -19.39,
+          "change_24h_%": 4.031387121229396
+        },
+        "RWA": {
+          "change_7d_%": 0.62,
+          "change_24h_%": 0.9031699852877608
+        },
+        "SOL Ecosystem": {
+          "change_7d_%": -18.47,
+          "change_24h_%": null
+        },
+        "Meme Coins": {
+          "change_7d_%": -15.55,
+          "change_24h_%": 4.3029830085318
+        },
+        "Privacy": {
+          "change_7d_%": -18.45,
+          "change_24h_%": 11.486338261179345
+        },
+        "Stablecoins": {
+          "change_7d_%": 0.04,
+          "change_24h_%": -0.03657874124328686
+        },
+        "Liquid Staking": {
+          "change_7d_%": null,
+          "change_24h_%": 0.4529702223283698
+        },
+        "DePin": {
+          "change_7d_%": -17.29,
+          "change_24h_%": 3.912312384755343
+        }
+      },
+      "notable_coins": {
+        "WLD": {
+          "change_7d_%": 23.8,
+          "change_30d_%": 72.17,
+          "rank": 50,
+          "fees_24h": null,
+          "tvl": null
+        },
+        "CC": {
+          "change_7d_%": 2.06,
+          "change_30d_%": 1.57,
+          "rank": 17,
+          "fees_24h": 1937122,
+          "tvl": null
+        },
+        "ONDO": {
+          "change_7d_%": 0.62,
+          "change_30d_%": -18.21,
+          "rank": 46,
+          "fees_24h": null,
+          "tvl": 2607727677.1057143
+        },
+        "ENA": {
+          "change_7d_%": 0.57,
+          "change_30d_%": -34.22,
+          "rank": 82,
+          "fees_24h": null,
+          "tvl": 4497276043.033058
+        },
+        "USDT": {
+          "change_7d_%": 0.08,
+          "change_30d_%": -0.05,
+          "rank": 3,
+          "fees_24h": 16346503,
+          "tvl": null
+        }
+      }
+    },
+    "brief_summary": "Now I have all the data I need to compile the full analysis. Let me put it together.\n\n---\n\n# 0. \ud83e\udde0 EXECUTIVE SUMMARY\n\n- **BTC at $63,035** \u2014 down -13.3% on the week and -21.4% on the month, now sitting just above the Fibonacci swing low at $59,228 with nearest resistance at $67,462. The crash was a four-factor confluence: \nBitcoin fell from above $80,000 to below $62,000 as a hawkish Fed removed expected liquidity support while geopolitical tensions accelerated the selloff.\n\n- **Sector rotation is real but dangerous:** RWA (+0.62% 7d) and AI Crypto (-4.4% 7d) are the only categories meaningfull"
   }
 }
