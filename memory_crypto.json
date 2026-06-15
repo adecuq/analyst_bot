@@ -418,5 +418,89 @@
       }
     },
     "brief_summary": "Now I have all the data I need to compile the full analysis. Let me put it together.\n\n---\n\n# 0. \ud83e\udde0 EXECUTIVE SUMMARY\n\n- **BTC at $63,035** \u2014 down -13.3% on the week and -21.4% on the month, now sitting just above the Fibonacci swing low at $59,228 with nearest resistance at $67,462. The crash was a four-factor confluence: \nBitcoin fell from above $80,000 to below $62,000 as a hawkish Fed removed expected liquidity support while geopolitical tensions accelerated the selloff.\n\n- **Sector rotation is real but dangerous:** RWA (+0.62% 7d) and AI Crypto (-4.4% 7d) are the only categories meaningfull"
+  },
+  "2026-06-15": {
+    "signals": {
+      "categories": {
+        "Layer 1": {
+          "change_7d_%": 4.64,
+          "change_24h_%": 2.256333971976101
+        },
+        "AI Crypto": {
+          "change_7d_%": 20.44,
+          "change_24h_%": 3.7717350640077156
+        },
+        "DeFi": {
+          "change_7d_%": 10.45,
+          "change_24h_%": 4.346857605238391
+        },
+        "RWA": {
+          "change_7d_%": 6.75,
+          "change_24h_%": 1.8164466645552373
+        },
+        "SOL Ecosystem": {
+          "change_7d_%": 13.46,
+          "change_24h_%": null
+        },
+        "Meme Coins": {
+          "change_7d_%": 4.88,
+          "change_24h_%": 0.5144473936643601
+        },
+        "Privacy": {
+          "change_7d_%": 12.41,
+          "change_24h_%": 9.423738800497757
+        },
+        "Stablecoins": {
+          "change_7d_%": 0.0,
+          "change_24h_%": 0.049765199047020675
+        },
+        "Liquid Staking": {
+          "change_7d_%": null,
+          "change_24h_%": 0.8550221370707562
+        },
+        "DePin": {
+          "change_7d_%": 3.68,
+          "change_24h_%": 2.910141047872695
+        }
+      },
+      "notable_coins": {
+        "TAO": {
+          "change_7d_%": 26.91,
+          "change_30d_%": -1.19,
+          "rank": 40,
+          "fees_24h": null,
+          "tvl": null
+        },
+        "WLD": {
+          "change_7d_%": 24.78,
+          "change_30d_%": 147.35,
+          "rank": 43,
+          "fees_24h": null,
+          "tvl": null
+        },
+        "JUP": {
+          "change_7d_%": 19.04,
+          "change_30d_%": -7.63,
+          "rank": 92,
+          "fees_24h": null,
+          "tvl": 902563303.1065919
+        },
+        "AAVE": {
+          "change_7d_%": 16.9,
+          "change_30d_%": -17.2,
+          "rank": 65,
+          "fees_24h": null,
+          "tvl": 12124245842.195389
+        },
+        "MORPHO": {
+          "change_7d_%": 15.58,
+          "change_30d_%": 11.7,
+          "rank": 60,
+          "fees_24h": null,
+          "tvl": 6899757168.893333
+        }
+      }
+    },
+    "brief_summary": "Now I have all the data I need. Let me compile the full analysis.\n\n---\n\n# 0. \ud83e\udde0 EXECUTIVE SUMMARY\n\n- **BTC at $65,698** \u2014 a bear-market bounce (+3.6% 7d) after the June crash to $61K lows; still 48% below ATH and trapped below the 78.6% Fib resistance at $67,462. The market is stabilizing, not recovering.\n- **AI Crypto is the week's top sector rotation** (+20.4% 7d), led by TAO (+26.9%), WLD (+24.8%), and NEAR (+10.3%) \u2014 driven by OpenAI IPO buzz and real narrative momentum, but revenue backing is thin.\n- **Biggest risk:** \nFOMC meets June 16\u201317; markets price a 98.3% chance of no rate move\n \u2014 "
   }
 }
