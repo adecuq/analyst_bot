@@ -1954,5 +1954,248 @@
       }
     },
     "brief_summary": "Now I have everything I need. Let me compile the full report.\n\n---\n\n# \ud83e\udde0 SECTOR TREND REPORT \u2014 Week of June 8, 2026\n\n---\n\n## 0. \ud83e\udde0 EXECUTIVE SUMMARY\n\n- **Semis had their worst week since April 2025:** \nBroadcom's disappointing AI guidance, coupled with a hot jobs report, triggered a $1T+ semiconductor selloff; the PHLX Semiconductor Index plummeted more than 10%, its steepest drop since March 2020.\n SOXX down -5.6% for the week, but up +17% on the month \u2014 this is a **pause within an uptrend, not a reversal**.\n- **MRVL is the breakout chain signal of the month:** \nMarvell surged ~25% after Nvidia"
+  },
+  "2026-06-15": {
+    "signals": {
+      "sectors": {
+        "Semiconductors": {
+          "change_1w_%": 4.34,
+          "change_1m_%": 28.02,
+          "volume_ratio": 0.99,
+          "near_52w_high": true
+        },
+        "AI / Cloud": {
+          "change_1w_%": -0.68,
+          "change_1m_%": 12.64,
+          "volume_ratio": 1.28,
+          "near_52w_high": false
+        },
+        "Clean Energy": {
+          "change_1w_%": -0.38,
+          "change_1m_%": -0.14,
+          "volume_ratio": 0.52,
+          "near_52w_high": false
+        },
+        "Biotech": {
+          "change_1w_%": 4.17,
+          "change_1m_%": 2.58,
+          "volume_ratio": 0.92,
+          "near_52w_high": true
+        },
+        "Cybersecurity": {
+          "change_1w_%": -0.75,
+          "change_1m_%": 18.9,
+          "volume_ratio": 0.41,
+          "near_52w_high": false
+        },
+        "Space & Defense": {
+          "change_1w_%": 2.87,
+          "change_1m_%": 8.1,
+          "volume_ratio": 0.74,
+          "near_52w_high": true
+        },
+        "Quantum Computing": {
+          "change_1w_%": 2.26,
+          "change_1m_%": 19.33,
+          "volume_ratio": 0.85,
+          "near_52w_high": true
+        },
+        "Robotics & Automation": {
+          "change_1w_%": -1.58,
+          "change_1m_%": 1.29,
+          "volume_ratio": 0.49,
+          "near_52w_high": false
+        },
+        "Fintech": {
+          "change_1w_%": 0.92,
+          "change_1m_%": -5.43,
+          "volume_ratio": 0.57,
+          "near_52w_high": false
+        },
+        "Rare Earth & Materials": {
+          "change_1w_%": 9.24,
+          "change_1m_%": -10.35,
+          "volume_ratio": 0.64,
+          "near_52w_high": false
+        }
+      },
+      "notable_tickers": {
+        "ACHR": {
+          "change_1w_%": -11.34,
+          "change_1m_%": -13.46,
+          "volume_ratio": 0.57,
+          "near_52w_high": false
+        },
+        "ORCL": {
+          "change_1w_%": -13.07,
+          "change_1m_%": 7.16,
+          "volume_ratio": 1.17,
+          "near_52w_high": false
+        },
+        "UMC": {
+          "change_1w_%": 8.15,
+          "change_1m_%": 65.75,
+          "volume_ratio": 0.92,
+          "near_52w_high": false
+        },
+        "SMCI": {
+          "change_1w_%": -30.76,
+          "change_1m_%": 12.44,
+          "volume_ratio": 1.44,
+          "near_52w_high": false
+        },
+        "TSEM": {
+          "change_1w_%": 8.63,
+          "change_1m_%": 20.6,
+          "volume_ratio": 0.54,
+          "near_52w_high": false
+        },
+        "FORM": {
+          "change_1w_%": 12.04,
+          "change_1m_%": 1.34,
+          "volume_ratio": 0.64,
+          "near_52w_high": false
+        },
+        "MSFT": {
+          "change_1w_%": -5.1,
+          "change_1m_%": -5.51,
+          "volume_ratio": 0.98,
+          "near_52w_high": false
+        },
+        "AXTI": {
+          "change_1w_%": 7.05,
+          "change_1m_%": 1.23,
+          "volume_ratio": 1.08,
+          "near_52w_high": false
+        },
+        "ASTS": {
+          "change_1w_%": -10.48,
+          "change_1m_%": 16.25,
+          "volume_ratio": 2.14,
+          "near_52w_high": false
+        },
+        "SOUN": {
+          "change_1w_%": -7.88,
+          "change_1m_%": -27.82,
+          "volume_ratio": 0.86,
+          "near_52w_high": false
+        },
+        "AMKR": {
+          "change_1w_%": 21.22,
+          "change_1m_%": 16.57,
+          "volume_ratio": 1.4,
+          "near_52w_high": true
+        },
+        "KEYS": {
+          "change_1w_%": 5.75,
+          "change_1m_%": -0.49,
+          "volume_ratio": 0.78,
+          "near_52w_high": true
+        },
+        "SPIR": {
+          "change_1w_%": 7.11,
+          "change_1m_%": 0.28,
+          "volume_ratio": 0.98,
+          "near_52w_high": false
+        },
+        "AAOI": {
+          "change_1w_%": -14.03,
+          "change_1m_%": -7.88,
+          "volume_ratio": 0.95,
+          "near_52w_high": false
+        },
+        "IONQ": {
+          "change_1w_%": -7.88,
+          "change_1m_%": 25.22,
+          "volume_ratio": 0.73,
+          "near_52w_high": false
+        },
+        "PLTR": {
+          "change_1w_%": -6.21,
+          "change_1m_%": -11.16,
+          "volume_ratio": 0.83,
+          "near_52w_high": false
+        },
+        "JOBY": {
+          "change_1w_%": -5.67,
+          "change_1m_%": -1.08,
+          "volume_ratio": 0.75,
+          "near_52w_high": false
+        },
+        "GD": {
+          "change_1w_%": 5.68,
+          "change_1m_%": 4.16,
+          "volume_ratio": 0.87,
+          "near_52w_high": true
+        },
+        "INTC": {
+          "change_1w_%": 12.97,
+          "change_1m_%": 25.05,
+          "volume_ratio": 1.09,
+          "near_52w_high": true
+        },
+        "BBAI": {
+          "change_1w_%": -6.73,
+          "change_1m_%": -2.9,
+          "volume_ratio": 0.56,
+          "near_52w_high": false
+        },
+        "NNE": {
+          "change_1w_%": -10.33,
+          "change_1m_%": -0.98,
+          "volume_ratio": 0.64,
+          "near_52w_high": false
+        },
+        "GFS": {
+          "change_1w_%": 5.26,
+          "change_1m_%": 25.37,
+          "volume_ratio": 0.35,
+          "near_52w_high": false
+        },
+        "SMR": {
+          "change_1w_%": -8.09,
+          "change_1m_%": -18.53,
+          "volume_ratio": 0.9,
+          "near_52w_high": false
+        },
+        "TER": {
+          "change_1w_%": 7.61,
+          "change_1m_%": 16.77,
+          "volume_ratio": 0.89,
+          "near_52w_high": true
+        },
+        "MKSI": {
+          "change_1w_%": 13.97,
+          "change_1m_%": 27.41,
+          "volume_ratio": 0.77,
+          "near_52w_high": true
+        },
+        "ABBNY": {
+          "change_1w_%": -1.15,
+          "change_1m_%": 1.16,
+          "volume_ratio": 2.08,
+          "near_52w_high": false
+        },
+        "QBTS": {
+          "change_1w_%": -9.52,
+          "change_1m_%": 14.06,
+          "volume_ratio": 0.71,
+          "near_52w_high": false
+        },
+        "RKLB": {
+          "change_1w_%": -9.91,
+          "change_1m_%": 29.92,
+          "volume_ratio": 2.18,
+          "near_52w_high": false
+        },
+        "AVAV": {
+          "change_1w_%": -7.63,
+          "change_1m_%": -7.78,
+          "volume_ratio": 0.83,
+          "near_52w_high": false
+        }
+      }
+    },
+    "brief_summary": "Now I have all the data I need. Let me compile the full report.\n\n---\n\n# \ud83e\udde0 SECTOR TREND REPORT \u2014 Week of June 15, 2026\n\n---\n\n## 0. \ud83e\udde0 EXECUTIVE SUMMARY\n\n- \n**Geopolitical tailwind ignites relief rally:** The US and Iran agreed to end their war and reopen the Strait of Hormuz, driving a global relief rally with stocks and bonds higher while oil tumbled to a three-month low.\n\n- **Semis bounce back hard:** SOXX +4.34% on the week, back near 52-week highs at RSI 86.6 \u2014 led by ARM (+9.94% 1w, +80% 1m) and INTC (+12.97% 1w) on BofA double-upgrade and agentic AI CPU thesis. The sector ETF is parabolic,"
   }
 }
