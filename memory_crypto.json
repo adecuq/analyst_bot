@@ -502,5 +502,89 @@
       }
     },
     "brief_summary": "Now I have all the data I need. Let me compile the full analysis.\n\n---\n\n# 0. \ud83e\udde0 EXECUTIVE SUMMARY\n\n- **BTC at $65,698** \u2014 a bear-market bounce (+3.6% 7d) after the June crash to $61K lows; still 48% below ATH and trapped below the 78.6% Fib resistance at $67,462. The market is stabilizing, not recovering.\n- **AI Crypto is the week's top sector rotation** (+20.4% 7d), led by TAO (+26.9%), WLD (+24.8%), and NEAR (+10.3%) \u2014 driven by OpenAI IPO buzz and real narrative momentum, but revenue backing is thin.\n- **Biggest risk:** \nFOMC meets June 16\u201317; markets price a 98.3% chance of no rate move\n \u2014 "
+  },
+  "2026-06-22": {
+    "signals": {
+      "categories": {
+        "Layer 1": {
+          "change_7d_%": -4.35,
+          "change_24h_%": -0.30456671389818807
+        },
+        "AI Crypto": {
+          "change_7d_%": -6.08,
+          "change_24h_%": 0.5308235556508122
+        },
+        "DeFi": {
+          "change_7d_%": 11.72,
+          "change_24h_%": -0.5180967542213492
+        },
+        "RWA": {
+          "change_7d_%": -11.17,
+          "change_24h_%": -0.7427796723448219
+        },
+        "SOL Ecosystem": {
+          "change_7d_%": 8.0,
+          "change_24h_%": null
+        },
+        "Meme Coins": {
+          "change_7d_%": -4.87,
+          "change_24h_%": 0.2849580469630875
+        },
+        "Privacy": {
+          "change_7d_%": -5.75,
+          "change_24h_%": -1.663406256984235
+        },
+        "Stablecoins": {
+          "change_7d_%": -0.02,
+          "change_24h_%": 0.11228112184295282
+        },
+        "Liquid Staking": {
+          "change_7d_%": null,
+          "change_24h_%": -2.154382457604448
+        },
+        "DePin": {
+          "change_7d_%": 0.21,
+          "change_24h_%": -0.04490866957699824
+        }
+      },
+      "notable_coins": {
+        "UNI": {
+          "change_7d_%": 15.86,
+          "change_30d_%": -8.85,
+          "rank": 45,
+          "fees_24h": null,
+          "tvl": 1452748652.0766819
+        },
+        "JUP": {
+          "change_7d_%": 12.65,
+          "change_30d_%": 10.6,
+          "rank": 86,
+          "fees_24h": null,
+          "tvl": 899097785.9638089
+        },
+        "ENA": {
+          "change_7d_%": 11.98,
+          "change_30d_%": 0.64,
+          "rank": 73,
+          "fees_24h": null,
+          "tvl": 4478665473.742797
+        },
+        "JST": {
+          "change_7d_%": 7.67,
+          "change_30d_%": -10.71,
+          "rank": 85,
+          "fees_24h": null,
+          "tvl": 3079137862.602828
+        },
+        "AAVE": {
+          "change_7d_%": 7.58,
+          "change_30d_%": -9.6,
+          "rank": 63,
+          "fees_24h": null,
+          "tvl": 12536021337.046335
+        }
+      }
+    },
+    "brief_summary": "Now I have all the data I need. Let me compile the full analysis.\n\n---\n\n# 0. \ud83e\udde0 EXECUTIVE SUMMARY\n\n- **BTC at $64,056** \u2014 bounced from $61K lows but rejected at $67K after Warsh's hawkish dot plot shocked markets (June 17); now consolidating in a bear-market dead zone, -14% on the month and 49% below ATH.\n- **DeFi is the ONLY sector with a confirmed weekly rotation signal** (+11.7% 7d), led by AAVE (+7.6%) and UNI (+15.9%), both with real TVL backing ($12.5B and $1.4B respectively).\n- **Biggest risk this week:** \nWarsh's hawkish dot plot projecting a 2026 median rate of 3.8% and dropping forwar"
   }
 }
