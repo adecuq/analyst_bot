@@ -2197,5 +2197,404 @@
       }
     },
     "brief_summary": "Now I have all the data I need. Let me compile the full report.\n\n---\n\n# \ud83e\udde0 SECTOR TREND REPORT \u2014 Week of June 15, 2026\n\n---\n\n## 0. \ud83e\udde0 EXECUTIVE SUMMARY\n\n- \n**Geopolitical tailwind ignites relief rally:** The US and Iran agreed to end their war and reopen the Strait of Hormuz, driving a global relief rally with stocks and bonds higher while oil tumbled to a three-month low.\n\n- **Semis bounce back hard:** SOXX +4.34% on the week, back near 52-week highs at RSI 86.6 \u2014 led by ARM (+9.94% 1w, +80% 1m) and INTC (+12.97% 1w) on BofA double-upgrade and agentic AI CPU thesis. The sector ETF is parabolic,"
+  },
+  "2026-06-22": {
+    "signals": {
+      "sectors": {
+        "Semiconductors": {
+          "change_1w_%": 7.3,
+          "change_1m_%": 29.94,
+          "volume_ratio": 0.93,
+          "near_52w_high": true
+        },
+        "AI / Cloud": {
+          "change_1w_%": 4.38,
+          "change_1m_%": 11.35,
+          "volume_ratio": 0.66,
+          "near_52w_high": true
+        },
+        "Clean Energy": {
+          "change_1w_%": 1.13,
+          "change_1m_%": 2.16,
+          "volume_ratio": 1.03,
+          "near_52w_high": false
+        },
+        "Biotech": {
+          "change_1w_%": 5.18,
+          "change_1m_%": 5.28,
+          "volume_ratio": 1.1,
+          "near_52w_high": true
+        },
+        "Cybersecurity": {
+          "change_1w_%": -0.05,
+          "change_1m_%": 13.33,
+          "volume_ratio": 0.55,
+          "near_52w_high": false
+        },
+        "Space & Defense": {
+          "change_1w_%": 2.3,
+          "change_1m_%": 7.48,
+          "volume_ratio": 1.1,
+          "near_52w_high": true
+        },
+        "Quantum Computing": {
+          "change_1w_%": 4.14,
+          "change_1m_%": 19.02,
+          "volume_ratio": 0.63,
+          "near_52w_high": true
+        },
+        "Robotics & Automation": {
+          "change_1w_%": 3.61,
+          "change_1m_%": 2.61,
+          "volume_ratio": 0.49,
+          "near_52w_high": true
+        },
+        "Fintech": {
+          "change_1w_%": 3.1,
+          "change_1m_%": -3.44,
+          "volume_ratio": 1.01,
+          "near_52w_high": false
+        },
+        "Rare Earth & Materials": {
+          "change_1w_%": 0.05,
+          "change_1m_%": -10.33,
+          "volume_ratio": 0.78,
+          "near_52w_high": false
+        }
+      },
+      "notable_tickers": {
+        "NEE": {
+          "change_1w_%": 0.88,
+          "change_1m_%": -6.36,
+          "volume_ratio": 1.53,
+          "near_52w_high": false
+        },
+        "AMKR": {
+          "change_1w_%": 9.28,
+          "change_1m_%": 25.31,
+          "volume_ratio": 0.95,
+          "near_52w_high": true
+        },
+        "GFS": {
+          "change_1w_%": 5.47,
+          "change_1m_%": 21.01,
+          "volume_ratio": 0.54,
+          "near_52w_high": true
+        },
+        "CSCO": {
+          "change_1w_%": -1.29,
+          "change_1m_%": 29.71,
+          "volume_ratio": 1.84,
+          "near_52w_high": false
+        },
+        "HPE": {
+          "change_1w_%": -1.29,
+          "change_1m_%": 60.1,
+          "volume_ratio": 1.54,
+          "near_52w_high": false
+        },
+        "RTX": {
+          "change_1w_%": 1.13,
+          "change_1m_%": 5.43,
+          "volume_ratio": 1.51,
+          "near_52w_high": true
+        },
+        "BE": {
+          "change_1w_%": 26.4,
+          "change_1m_%": 27.17,
+          "volume_ratio": 1.5,
+          "near_52w_high": true
+        },
+        "ACHR": {
+          "change_1w_%": 9.65,
+          "change_1m_%": -11.31,
+          "volume_ratio": 0.77,
+          "near_52w_high": false
+        },
+        "CGNX": {
+          "change_1w_%": 3.91,
+          "change_1m_%": 0.41,
+          "volume_ratio": 1.57,
+          "near_52w_high": true
+        },
+        "VRT": {
+          "change_1w_%": 9.99,
+          "change_1m_%": -2.03,
+          "volume_ratio": 1.22,
+          "near_52w_high": false
+        },
+        "LDOS": {
+          "change_1w_%": -12.0,
+          "change_1m_%": -18.1,
+          "volume_ratio": 4.3,
+          "near_52w_high": false
+        },
+        "LITE": {
+          "change_1w_%": -7.77,
+          "change_1m_%": -4.77,
+          "volume_ratio": 1.35,
+          "near_52w_high": false
+        },
+        "NNE": {
+          "change_1w_%": 21.7,
+          "change_1m_%": 5.66,
+          "volume_ratio": 1.77,
+          "near_52w_high": false
+        },
+        "QUBT": {
+          "change_1w_%": 8.36,
+          "change_1m_%": 11.73,
+          "volume_ratio": 0.77,
+          "near_52w_high": false
+        },
+        "AXTI": {
+          "change_1w_%": -12.98,
+          "change_1m_%": -22.0,
+          "volume_ratio": 1.31,
+          "near_52w_high": false
+        },
+        "SAIC": {
+          "change_1w_%": -10.03,
+          "change_1m_%": 8.79,
+          "volume_ratio": 2.64,
+          "near_52w_high": false
+        },
+        "GNRC": {
+          "change_1w_%": 6.4,
+          "change_1m_%": 4.65,
+          "volume_ratio": 1.79,
+          "near_52w_high": true
+        },
+        "FORM": {
+          "change_1w_%": 7.43,
+          "change_1m_%": 3.37,
+          "volume_ratio": 1.05,
+          "near_52w_high": true
+        },
+        "EMR": {
+          "change_1w_%": 5.31,
+          "change_1m_%": 7.21,
+          "volume_ratio": 1.45,
+          "near_52w_high": true
+        },
+        "LMT": {
+          "change_1w_%": -5.44,
+          "change_1m_%": 0.37,
+          "volume_ratio": 3.1,
+          "near_52w_high": false
+        },
+        "AMD": {
+          "change_1w_%": 5.04,
+          "change_1m_%": 31.56,
+          "volume_ratio": 1.29,
+          "near_52w_high": true
+        },
+        "MSFT": {
+          "change_1w_%": -2.9,
+          "change_1m_%": -9.64,
+          "volume_ratio": 1.6,
+          "near_52w_high": false
+        },
+        "TER": {
+          "change_1w_%": 8.61,
+          "change_1m_%": 23.71,
+          "volume_ratio": 4.18,
+          "near_52w_high": true
+        },
+        "SMR": {
+          "change_1w_%": 18.71,
+          "change_1m_%": -6.68,
+          "volume_ratio": 1.85,
+          "near_52w_high": false
+        },
+        "AMZN": {
+          "change_1w_%": 2.45,
+          "change_1m_%": -9.88,
+          "volume_ratio": 1.82,
+          "near_52w_high": false
+        },
+        "QCOM": {
+          "change_1w_%": 6.8,
+          "change_1m_%": 12.04,
+          "volume_ratio": 1.85,
+          "near_52w_high": false
+        },
+        "AVGO": {
+          "change_1w_%": 7.66,
+          "change_1m_%": -0.29,
+          "volume_ratio": 1.51,
+          "near_52w_high": false
+        },
+        "OKLO": {
+          "change_1w_%": 6.4,
+          "change_1m_%": -14.84,
+          "volume_ratio": 1.04,
+          "near_52w_high": false
+        },
+        "JOBY": {
+          "change_1w_%": 9.29,
+          "change_1m_%": -0.1,
+          "volume_ratio": 1.38,
+          "near_52w_high": false
+        },
+        "ROK": {
+          "change_1w_%": 3.15,
+          "change_1m_%": 5.95,
+          "volume_ratio": 1.61,
+          "near_52w_high": true
+        },
+        "FN": {
+          "change_1w_%": -6.1,
+          "change_1m_%": -8.36,
+          "volume_ratio": 1.42,
+          "near_52w_high": false
+        },
+        "GLW": {
+          "change_1w_%": 8.77,
+          "change_1m_%": 7.03,
+          "volume_ratio": 1.6,
+          "near_52w_high": false
+        },
+        "NOK": {
+          "change_1w_%": -8.85,
+          "change_1m_%": 9.23,
+          "volume_ratio": 1.02,
+          "near_52w_high": false
+        },
+        "QBTS": {
+          "change_1w_%": 5.65,
+          "change_1m_%": 12.28,
+          "volume_ratio": 0.77,
+          "near_52w_high": false
+        },
+        "BAH": {
+          "change_1w_%": -14.27,
+          "change_1m_%": -13.0,
+          "volume_ratio": 2.88,
+          "near_52w_high": false
+        },
+        "UMC": {
+          "change_1w_%": 11.33,
+          "change_1m_%": 58.84,
+          "volume_ratio": 1.51,
+          "near_52w_high": true
+        },
+        "ETN": {
+          "change_1w_%": 7.76,
+          "change_1m_%": 5.96,
+          "volume_ratio": 1.42,
+          "near_52w_high": true
+        },
+        "NOC": {
+          "change_1w_%": -5.24,
+          "change_1m_%": -5.16,
+          "volume_ratio": 2.51,
+          "near_52w_high": false
+        },
+        "GD": {
+          "change_1w_%": -2.83,
+          "change_1m_%": 0.65,
+          "volume_ratio": 3.49,
+          "near_52w_high": true
+        },
+        "KTOS": {
+          "change_1w_%": -6.13,
+          "change_1m_%": -4.89,
+          "volume_ratio": 1.45,
+          "near_52w_high": false
+        },
+        "ISRG": {
+          "change_1w_%": -1.04,
+          "change_1m_%": -10.3,
+          "volume_ratio": 1.78,
+          "near_52w_high": false
+        },
+        "VST": {
+          "change_1w_%": 10.63,
+          "change_1m_%": 6.37,
+          "volume_ratio": 1.48,
+          "near_52w_high": true
+        },
+        "INTC": {
+          "change_1w_%": 7.56,
+          "change_1m_%": 22.23,
+          "volume_ratio": 1.69,
+          "near_52w_high": true
+        },
+        "TSM": {
+          "change_1w_%": 9.01,
+          "change_1m_%": 11.84,
+          "volume_ratio": 1.92,
+          "near_52w_high": true
+        },
+        "IBM": {
+          "change_1w_%": -8.5,
+          "change_1m_%": 8.48,
+          "volume_ratio": 1.56,
+          "near_52w_high": false
+        },
+        "MRVL": {
+          "change_1w_%": 11.04,
+          "change_1m_%": 94.1,
+          "volume_ratio": 4.5,
+          "near_52w_high": true
+        },
+        "META": {
+          "change_1w_%": 1.9,
+          "change_1m_%": -6.33,
+          "volume_ratio": 1.69,
+          "near_52w_high": false
+        },
+        "CEG": {
+          "change_1w_%": 8.0,
+          "change_1m_%": -11.82,
+          "volume_ratio": 1.65,
+          "near_52w_high": false
+        },
+        "RKLB": {
+          "change_1w_%": 4.74,
+          "change_1m_%": 36.47,
+          "volume_ratio": 2.21,
+          "near_52w_high": false
+        },
+        "AI": {
+          "change_1w_%": -5.5,
+          "change_1m_%": 7.52,
+          "volume_ratio": 0.92,
+          "near_52w_high": false
+        },
+        "KEYS": {
+          "change_1w_%": 3.71,
+          "change_1m_%": 2.42,
+          "volume_ratio": 1.56,
+          "near_52w_high": true
+        },
+        "ABBNY": {
+          "change_1w_%": 6.17,
+          "change_1m_%": 5.23,
+          "volume_ratio": 1.74,
+          "near_52w_high": true
+        },
+        "TSEM": {
+          "change_1w_%": 9.06,
+          "change_1m_%": 36.54,
+          "volume_ratio": 1.12,
+          "near_52w_high": true
+        },
+        "MKSI": {
+          "change_1w_%": 14.25,
+          "change_1m_%": 35.2,
+          "volume_ratio": 1.79,
+          "near_52w_high": true
+        },
+        "SPIR": {
+          "change_1w_%": 4.06,
+          "change_1m_%": 17.53,
+          "volume_ratio": 3.15,
+          "near_52w_high": false
+        }
+      }
+    },
+    "brief_summary": "Now I have everything I need. Let me compile the full report.\n\n---\n\n# \ud83e\udde0 SECTOR TREND REPORT \u2014 Week of June 22, 2026\n\n---\n\n## 0. \ud83e\udde0 EXECUTIVE SUMMARY\n\n- **Memory semiconductor supercycle is the dominant market theme:** \nMemory chip stocks including MU, SNDK, STX, and WDC hit record highs last week, defying broader market weakness triggered by renewed U.S.-Iran tensions.\n This is a full-stack rotation, not a one-ticker story.\n- **Fed turns hawkish under new Chair Warsh:** \nThe FOMC delivered a sharp hawkish shift \u2014 while holding rates steady at 3.50\u20133.75%, nine of 19 officials now see at least on"
   }
 }
