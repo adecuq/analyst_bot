@@ -586,5 +586,89 @@
       }
     },
     "brief_summary": "Now I have all the data I need. Let me compile the full analysis.\n\n---\n\n# 0. \ud83e\udde0 EXECUTIVE SUMMARY\n\n- **BTC at $64,056** \u2014 bounced from $61K lows but rejected at $67K after Warsh's hawkish dot plot shocked markets (June 17); now consolidating in a bear-market dead zone, -14% on the month and 49% below ATH.\n- **DeFi is the ONLY sector with a confirmed weekly rotation signal** (+11.7% 7d), led by AAVE (+7.6%) and UNI (+15.9%), both with real TVL backing ($12.5B and $1.4B respectively).\n- **Biggest risk this week:** \nWarsh's hawkish dot plot projecting a 2026 median rate of 3.8% and dropping forwar"
+  },
+  "2026-06-29": {
+    "signals": {
+      "categories": {
+        "Layer 1": {
+          "change_7d_%": -6.81,
+          "change_24h_%": -0.15246157053473056
+        },
+        "AI Crypto": {
+          "change_7d_%": -17.78,
+          "change_24h_%": -0.2872566079756254
+        },
+        "DeFi": {
+          "change_7d_%": 8.48,
+          "change_24h_%": -0.05881562201378638
+        },
+        "RWA": {
+          "change_7d_%": -8.27,
+          "change_24h_%": -0.3563521702443677
+        },
+        "SOL Ecosystem": {
+          "change_7d_%": -2.04,
+          "change_24h_%": null
+        },
+        "Meme Coins": {
+          "change_7d_%": -13.75,
+          "change_24h_%": -1.7591143220010323
+        },
+        "Privacy": {
+          "change_7d_%": -10.09,
+          "change_24h_%": -2.4951869459868306
+        },
+        "Stablecoins": {
+          "change_7d_%": -0.02,
+          "change_24h_%": 0.019013641538349002
+        },
+        "Liquid Staking": {
+          "change_7d_%": null,
+          "change_24h_%": -0.27895652833123175
+        },
+        "DePin": {
+          "change_7d_%": -11.07,
+          "change_24h_%": -0.49386600059019475
+        }
+      },
+      "notable_coins": {
+        "AAVE": {
+          "change_7d_%": 19.68,
+          "change_30d_%": 10.33,
+          "rank": 53,
+          "fees_24h": null,
+          "tvl": 11916101143.423622
+        },
+        "JST": {
+          "change_7d_%": 4.92,
+          "change_30d_%": -8.98,
+          "rank": 81,
+          "fees_24h": null,
+          "tvl": 2947503385.982231
+        },
+        "AVAX": {
+          "change_7d_%": 3.84,
+          "change_30d_%": -26.63,
+          "rank": 32,
+          "fees_24h": 2496,
+          "tvl": 123861734.50707877
+        },
+        "RLUSD": {
+          "change_7d_%": 0.03,
+          "change_30d_%": 0.05,
+          "rank": 47,
+          "fees_24h": 142580,
+          "tvl": null
+        },
+        "BUIDL": {
+          "change_7d_%": 0,
+          "change_30d_%": 0,
+          "rank": 39,
+          "fees_24h": null,
+          "tvl": 3054386054.620449
+        }
+      }
+    },
+    "brief_summary": "Here is the full analysis for **June 29, 2026**:\n\n---\n\n# 0. \ud83e\udde0 EXECUTIVE SUMMARY\n\n- **BTC at $59,767** \u2014 \ncrypto markets weakened with BTC falling below $59,000 as upside momentum faded and price structure shifted lower beneath the $60,000 level.\n Daily RSI at 21.2 is in extreme oversold territory; price sits just above Fibonacci swing low at $58,189 \u2014 this is make-or-break support.\n- **DeFi is the sole sector with positive 7-day momentum (+8.48%)** \u2014 AAVE leads at +19.68% 7d with $11.9B TVL and $872K in daily fees; this is a genuine revenue-backed rotation amid broad market weakness.\n- **Bigge"
   }
 }
