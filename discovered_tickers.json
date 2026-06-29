@@ -263,6 +263,33 @@
       "ma_cross": null
     }
   },
+  "CCXI": {
+    "first_seen": "2026-06-29",
+    "last_seen": "2026-06-29",
+    "times_appeared": 1,
+    "discovery_source": "yahoo_trending",
+    "rsi_history": [
+      94.9
+    ],
+    "signal_history": [
+      "OVERBOUGHT"
+    ],
+    "last_data": {
+      "ticker": "CCXI",
+      "price": 13.86,
+      "change_1w_%": 33.65,
+      "change_1m_%": 35.35,
+      "volume_ratio": 6.91,
+      "52w_high": 13.86,
+      "near_52w_high": true,
+      "fwd_pe": null,
+      "rsi_weekly": 94.9,
+      "rsi_zone": "OVERBOUGHT",
+      "ma50_weekly": null,
+      "ma200_weekly": null,
+      "ma_cross": null
+    }
+  },
   "CDT": {
     "first_seen": "2026-06-22",
     "last_seen": "2026-06-22",
@@ -460,8 +487,8 @@
   },
   "DJT": {
     "first_seen": "2026-05-05",
-    "last_seen": "2026-06-22",
-    "times_appeared": 8,
+    "last_seen": "2026-06-29",
+    "times_appeared": 9,
     "discovery_source": "yahoo_trending",
     "rsi_history": [
       28.8,
@@ -471,7 +498,8 @@
       45.2,
       36.2,
       36.4,
-      42.8
+      42.8,
+      43.5
     ],
     "signal_history": [
       "OVERSOLD",
@@ -481,20 +509,21 @@
       "NEUTRAL",
       "NEUTRAL_LOW",
       "NEUTRAL_LOW",
+      "NEUTRAL_LOW",
       "NEUTRAL_LOW"
     ],
     "last_data": {
       "ticker": "DJT",
-      "price": 8.49,
-      "change_1w_%": 8.85,
-      "change_1m_%": -5.88,
-      "volume_ratio": 1.37,
+      "price": 7.42,
+      "change_1w_%": -8.62,
+      "change_1m_%": -17.09,
+      "volume_ratio": 4.94,
       "52w_high": 9.47,
       "near_52w_high": false,
       "fwd_pe": null,
-      "rsi_weekly": 42.8,
+      "rsi_weekly": 43.5,
       "rsi_zone": "NEUTRAL_LOW",
-      "ma50_weekly": 12.95,
+      "ma50_weekly": 12.73,
       "ma200_weekly": null,
       "ma_cross": null
     }
@@ -611,27 +640,29 @@
   },
   "FCEL": {
     "first_seen": "2026-06-08",
-    "last_seen": "2026-06-08",
-    "times_appeared": 1,
+    "last_seen": "2026-06-29",
+    "times_appeared": 2,
     "discovery_source": "yahoo_trending",
     "rsi_history": [
-      66.5
+      66.5,
+      75.8
     ],
     "signal_history": [
-      "EXTENDED"
+      "EXTENDED",
+      "OVERBOUGHT"
     ],
     "last_data": {
       "ticker": "FCEL",
-      "price": 17.33,
-      "change_1w_%": -18.68,
-      "change_1m_%": 55.01,
-      "volume_ratio": 0.97,
+      "price": 24.0,
+      "change_1w_%": -1.6,
+      "change_1m_%": 11.11,
+      "volume_ratio": 2.15,
       "52w_high": 26.38,
       "near_52w_high": false,
       "fwd_pe": null,
-      "rsi_weekly": 66.5,
-      "rsi_zone": "EXTENDED",
-      "ma50_weekly": 8.52,
+      "rsi_weekly": 75.8,
+      "rsi_zone": "OVERBOUGHT",
+      "ma50_weekly": 9.49,
       "ma200_weekly": null,
       "ma_cross": null
     }
@@ -825,6 +856,33 @@
       "ma_cross": null
     }
   },
+  "GME": {
+    "first_seen": "2026-06-29",
+    "last_seen": "2026-06-29",
+    "times_appeared": 1,
+    "discovery_source": "yahoo_trending",
+    "rsi_history": [
+      46.7
+    ],
+    "signal_history": [
+      "NEUTRAL"
+    ],
+    "last_data": {
+      "ticker": "GME",
+      "price": 21.76,
+      "change_1w_%": 2.93,
+      "change_1m_%": 0.69,
+      "volume_ratio": 0.97,
+      "52w_high": 22.55,
+      "near_52w_high": true,
+      "fwd_pe": null,
+      "rsi_weekly": 46.7,
+      "rsi_zone": "NEUTRAL",
+      "ma50_weekly": 22.92,
+      "ma200_weekly": null,
+      "ma_cross": null
+    }
+  },
   "GOOG": {
     "first_seen": "2026-05-05",
     "last_seen": "2026-05-05",
@@ -991,27 +1049,29 @@
   },
   "IBRX": {
     "first_seen": "2026-05-18",
-    "last_seen": "2026-05-18",
-    "times_appeared": 1,
+    "last_seen": "2026-06-29",
+    "times_appeared": 2,
     "discovery_source": "yahoo_trending",
     "rsi_history": [
-      60.1
+      60.1,
+      51.6
     ],
     "signal_history": [
-      "EXTENDED"
+      "EXTENDED",
+      "NEUTRAL"
     ],
     "last_data": {
       "ticker": "IBRX",
-      "price": 7.97,
-      "change_1w_%": -1.73,
-      "change_1m_%": 12.57,
-      "volume_ratio": 0.85,
-      "52w_high": 8.51,
-      "near_52w_high": false,
+      "price": 8.71,
+      "change_1w_%": 20.64,
+      "change_1m_%": 6.87,
+      "volume_ratio": 2.85,
+      "52w_high": 8.71,
+      "near_52w_high": true,
       "fwd_pe": null,
-      "rsi_weekly": 60.1,
-      "rsi_zone": "EXTENDED",
-      "ma50_weekly": 4.28,
+      "rsi_weekly": 51.6,
+      "rsi_zone": "NEUTRAL",
+      "ma50_weekly": 4.83,
       "ma200_weekly": null,
       "ma_cross": null
     }
@@ -1074,29 +1134,58 @@
       "ma_cross": null
     }
   },
-  "LLY": {
-    "first_seen": "2026-06-08",
-    "last_seen": "2026-06-08",
+  "LCID": {
+    "first_seen": "2026-06-29",
+    "last_seen": "2026-06-29",
     "times_appeared": 1,
     "discovery_source": "yahoo_trending",
     "rsi_history": [
-      57.1
+      26.7
     ],
     "signal_history": [
-      "NEUTRAL"
+      "OVERSOLD"
+    ],
+    "last_data": {
+      "ticker": "LCID",
+      "price": 5.92,
+      "change_1w_%": 14.73,
+      "change_1m_%": -5.58,
+      "volume_ratio": 2.42,
+      "52w_high": 6.65,
+      "near_52w_high": false,
+      "fwd_pe": null,
+      "rsi_weekly": 26.7,
+      "rsi_zone": "OVERSOLD",
+      "ma50_weekly": 13.55,
+      "ma200_weekly": null,
+      "ma_cross": null
+    }
+  },
+  "LLY": {
+    "first_seen": "2026-06-08",
+    "last_seen": "2026-06-29",
+    "times_appeared": 2,
+    "discovery_source": "yahoo_trending",
+    "rsi_history": [
+      57.1,
+      76.6
+    ],
+    "signal_history": [
+      "NEUTRAL",
+      "OVERBOUGHT"
     ],
     "last_data": {
       "ticker": "LLY",
-      "price": 1131.42,
-      "change_1w_%": 4.55,
-      "change_1m_%": 28.21,
-      "volume_ratio": 1.19,
-      "52w_high": 1131.42,
+      "price": 1208.12,
+      "change_1w_%": 9.62,
+      "change_1m_%": 20.21,
+      "volume_ratio": 2.35,
+      "52w_high": 1208.12,
       "near_52w_high": true,
       "fwd_pe": null,
-      "rsi_weekly": 57.1,
-      "rsi_zone": "NEUTRAL",
-      "ma50_weekly": 916.19,
+      "rsi_weekly": 76.6,
+      "rsi_zone": "OVERBOUGHT",
+      "ma50_weekly": 938.33,
       "ma200_weekly": null,
       "ma_cross": null
     }
@@ -1456,6 +1545,33 @@
       "ma_cross": null
     }
   },
+  "OUST": {
+    "first_seen": "2026-06-29",
+    "last_seen": "2026-06-29",
+    "times_appeared": 1,
+    "discovery_source": "yahoo_trending",
+    "rsi_history": [
+      70.1
+    ],
+    "signal_history": [
+      "EXTENDED"
+    ],
+    "last_data": {
+      "ticker": "OUST",
+      "price": 42.02,
+      "change_1w_%": -11.87,
+      "change_1m_%": 20.54,
+      "volume_ratio": 1.02,
+      "52w_high": 47.68,
+      "near_52w_high": false,
+      "fwd_pe": null,
+      "rsi_weekly": 70.1,
+      "rsi_zone": "EXTENDED",
+      "ma50_weekly": 27.33,
+      "ma200_weekly": null,
+      "ma_cross": null
+    }
+  },
   "OXY": {
     "first_seen": "2026-05-05",
     "last_seen": "2026-06-08",
@@ -1622,6 +1738,33 @@
       "ma_cross": null
     }
   },
+  "RCAT": {
+    "first_seen": "2026-06-29",
+    "last_seen": "2026-06-29",
+    "times_appeared": 1,
+    "discovery_source": "yahoo_trending",
+    "rsi_history": [
+      37.5
+    ],
+    "signal_history": [
+      "NEUTRAL_LOW"
+    ],
+    "last_data": {
+      "ticker": "RCAT",
+      "price": 9.28,
+      "change_1w_%": -12.7,
+      "change_1m_%": -4.72,
+      "volume_ratio": 0.67,
+      "52w_high": 14.95,
+      "near_52w_high": false,
+      "fwd_pe": null,
+      "rsi_weekly": 37.5,
+      "rsi_zone": "NEUTRAL_LOW",
+      "ma50_weekly": 10.94,
+      "ma200_weekly": null,
+      "ma_cross": null
+    }
+  },
   "RDW": {
     "first_seen": "2026-05-25",
     "last_seen": "2026-05-25",
@@ -1757,6 +1900,33 @@
       "ma_cross": null
     }
   },
+  "SDOT": {
+    "first_seen": "2026-06-29",
+    "last_seen": "2026-06-29",
+    "times_appeared": 1,
+    "discovery_source": "yahoo_trending",
+    "rsi_history": [
+      37.7
+    ],
+    "signal_history": [
+      "NEUTRAL_LOW"
+    ],
+    "last_data": {
+      "ticker": "SDOT",
+      "price": 21.45,
+      "change_1w_%": 131.89,
+      "change_1m_%": 436.25,
+      "volume_ratio": 10.14,
+      "52w_high": 28.11,
+      "near_52w_high": false,
+      "fwd_pe": null,
+      "rsi_weekly": 37.7,
+      "rsi_zone": "NEUTRAL_LOW",
+      "ma50_weekly": 78.77,
+      "ma200_weekly": null,
+      "ma_cross": null
+    }
+  },
   "SEDG": {
     "first_seen": "2026-05-18",
     "last_seen": "2026-05-18",
@@ -1865,6 +2035,33 @@
       "ma_cross": null
     }
   },
+  "SLS": {
+    "first_seen": "2026-06-29",
+    "last_seen": "2026-06-29",
+    "times_appeared": 1,
+    "discovery_source": "yahoo_trending",
+    "rsi_history": [
+      78.5
+    ],
+    "signal_history": [
+      "OVERBOUGHT"
+    ],
+    "last_data": {
+      "ticker": "SLS",
+      "price": 12.39,
+      "change_1w_%": 45.25,
+      "change_1m_%": 66.98,
+      "volume_ratio": 2.04,
+      "52w_high": 12.39,
+      "near_52w_high": true,
+      "fwd_pe": null,
+      "rsi_weekly": 78.5,
+      "rsi_zone": "OVERBOUGHT",
+      "ma50_weekly": 3.79,
+      "ma200_weekly": null,
+      "ma_cross": null
+    }
+  },
   "SMMT": {
     "first_seen": "2026-06-01",
     "last_seen": "2026-06-01",
@@ -1944,6 +2141,33 @@
       "rsi_weekly": 83.2,
       "rsi_zone": "OVERBOUGHT",
       "ma50_weekly": 539.68,
+      "ma200_weekly": null,
+      "ma_cross": null
+    }
+  },
+  "SNOW": {
+    "first_seen": "2026-06-29",
+    "last_seen": "2026-06-29",
+    "times_appeared": 1,
+    "discovery_source": "yahoo_trending",
+    "rsi_history": [
+      67.7
+    ],
+    "signal_history": [
+      "EXTENDED"
+    ],
+    "last_data": {
+      "ticker": "SNOW",
+      "price": 248.96,
+      "change_1w_%": 9.87,
+      "change_1m_%": 65.14,
+      "volume_ratio": 2.49,
+      "52w_high": 280.16,
+      "near_52w_high": false,
+      "fwd_pe": null,
+      "rsi_weekly": 67.7,
+      "rsi_zone": "EXTENDED",
+      "ma50_weekly": 206.54,
       "ma200_weekly": null,
       "ma_cross": null
     }
@@ -2106,6 +2330,33 @@
       "ma_cross": null
     }
   },
+  "UBER": {
+    "first_seen": "2026-06-29",
+    "last_seen": "2026-06-29",
+    "times_appeared": 1,
+    "discovery_source": "yahoo_trending",
+    "rsi_history": [
+      53.5
+    ],
+    "signal_history": [
+      "NEUTRAL"
+    ],
+    "last_data": {
+      "ticker": "UBER",
+      "price": 76.2,
+      "change_1w_%": 6.68,
+      "change_1m_%": 2.02,
+      "volume_ratio": 2.88,
+      "52w_high": 76.2,
+      "near_52w_high": true,
+      "fwd_pe": null,
+      "rsi_weekly": 53.5,
+      "rsi_zone": "NEUTRAL",
+      "ma50_weekly": 82.81,
+      "ma200_weekly": null,
+      "ma_cross": null
+    }
+  },
   "UNH": {
     "first_seen": "2026-05-18",
     "last_seen": "2026-05-18",
@@ -2187,29 +2438,58 @@
       "ma_cross": null
     }
   },
-  "WDC": {
-    "first_seen": "2026-06-22",
-    "last_seen": "2026-06-22",
+  "VIVO": {
+    "first_seen": "2026-06-29",
+    "last_seen": "2026-06-29",
     "times_appeared": 1,
     "discovery_source": "yahoo_trending",
     "rsi_history": [
-      93.2
+      70.6
     ],
     "signal_history": [
-      "OVERBOUGHT"
+      "EXTENDED"
+    ],
+    "last_data": {
+      "ticker": "VIVO",
+      "price": 5.77,
+      "change_1w_%": -1.7,
+      "change_1m_%": 17.04,
+      "volume_ratio": 0.69,
+      "52w_high": 6.6,
+      "near_52w_high": false,
+      "fwd_pe": null,
+      "rsi_weekly": 70.6,
+      "rsi_zone": "EXTENDED",
+      "ma50_weekly": 3.68,
+      "ma200_weekly": null,
+      "ma_cross": null
+    }
+  },
+  "WDC": {
+    "first_seen": "2026-06-22",
+    "last_seen": "2026-06-29",
+    "times_appeared": 2,
+    "discovery_source": "yahoo_trending",
+    "rsi_history": [
+      93.2,
+      71.3
+    ],
+    "signal_history": [
+      "OVERBOUGHT",
+      "EXTENDED"
     ],
     "last_data": {
       "ticker": "WDC",
-      "price": 746.23,
-      "change_1w_%": 32.56,
-      "change_1m_%": 60.9,
-      "volume_ratio": 2.16,
+      "price": 586.45,
+      "change_1w_%": -19.95,
+      "change_1m_%": 19.92,
+      "volume_ratio": 2.64,
       "52w_high": 746.23,
-      "near_52w_high": true,
+      "near_52w_high": false,
       "fwd_pe": null,
-      "rsi_weekly": 93.2,
-      "rsi_zone": "OVERBOUGHT",
-      "ma50_weekly": 238.44,
+      "rsi_weekly": 71.3,
+      "rsi_zone": "EXTENDED",
+      "ma50_weekly": 248.85,
       "ma200_weekly": null,
       "ma_cross": null
     }
