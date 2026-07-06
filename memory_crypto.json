@@ -670,5 +670,89 @@
       }
     },
     "brief_summary": "Here is the full analysis for **June 29, 2026**:\n\n---\n\n# 0. \ud83e\udde0 EXECUTIVE SUMMARY\n\n- **BTC at $59,767** \u2014 \ncrypto markets weakened with BTC falling below $59,000 as upside momentum faded and price structure shifted lower beneath the $60,000 level.\n Daily RSI at 21.2 is in extreme oversold territory; price sits just above Fibonacci swing low at $58,189 \u2014 this is make-or-break support.\n- **DeFi is the sole sector with positive 7-day momentum (+8.48%)** \u2014 AAVE leads at +19.68% 7d with $11.9B TVL and $872K in daily fees; this is a genuine revenue-backed rotation amid broad market weakness.\n- **Bigge"
+  },
+  "2026-07-06": {
+    "signals": {
+      "categories": {
+        "Layer 1": {
+          "change_7d_%": 9.09,
+          "change_24h_%": -0.1336883027244356
+        },
+        "AI Crypto": {
+          "change_7d_%": 0.68,
+          "change_24h_%": -0.9435489696345349
+        },
+        "DeFi": {
+          "change_7d_%": 2.21,
+          "change_24h_%": 0.7477053642276189
+        },
+        "RWA": {
+          "change_7d_%": 4.7,
+          "change_24h_%": -0.4734040576793199
+        },
+        "SOL Ecosystem": {
+          "change_7d_%": 12.26,
+          "change_24h_%": null
+        },
+        "Meme Coins": {
+          "change_7d_%": 8.28,
+          "change_24h_%": -1.2688130357416327
+        },
+        "Privacy": {
+          "change_7d_%": 10.84,
+          "change_24h_%": -1.9089424024348915
+        },
+        "Stablecoins": {
+          "change_7d_%": 0.03,
+          "change_24h_%": 0.050514021472516275
+        },
+        "Liquid Staking": {
+          "change_7d_%": null,
+          "change_24h_%": -0.795002396320821
+        },
+        "DePin": {
+          "change_7d_%": 8.5,
+          "change_24h_%": -1.5244205311143852
+        }
+      },
+      "notable_coins": {
+        "LIT": {
+          "change_7d_%": 51.21,
+          "change_30d_%": 69.75,
+          "rank": 93,
+          "fees_24h": null,
+          "tvl": 530952132.04639333
+        },
+        "ADA": {
+          "change_7d_%": 27.16,
+          "change_30d_%": 19.18,
+          "rank": 17,
+          "fees_24h": 2103,
+          "tvl": null
+        },
+        "PEPE": {
+          "change_7d_%": 14.92,
+          "change_30d_%": 0.69,
+          "rank": 64,
+          "fees_24h": null,
+          "tvl": null
+        },
+        "JUP": {
+          "change_7d_%": 13.49,
+          "change_30d_%": 53.11,
+          "rank": 78,
+          "fees_24h": null,
+          "tvl": 976716911.7464981
+        },
+        "PUMP": {
+          "change_7d_%": 12.5,
+          "change_30d_%": 14.6,
+          "rank": 92,
+          "fees_24h": 785207,
+          "tvl": 250918497.99544153
+        }
+      }
+    },
+    "brief_summary": "Now I have everything I need. Let me compile the full analysis.\n\n---\n\n# 0. \ud83e\udde0 EXECUTIVE SUMMARY\n\n- **BTC at $63,013** \u2014 a sharp +5% weekly bounce from the June 29 low of $59,767, but still 50% below the Oct 2025 ATH ($126,080) and capped by the 78.6% Fibonacci resistance at $66,454; structure remains bearish, not a trend reversal.\n- **DeFi + SOL Ecosystem are the week's clear sector leaders** \u2014 SOL Ecosystem +12.26%, DeFi +2.21% but with Morpho TVL +6.7%, Aave TVL +7.8%, and Lido TVL +13.9%; real fee revenue is rising with fundamental activity behind it, not just speculation.\n- **Biggest risk: "
   }
 }
